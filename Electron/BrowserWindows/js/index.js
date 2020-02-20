@@ -1,6 +1,8 @@
 
 const { dialog } = require('electron').remote;
 const fs = require('fs');
+const fse = require('fs-extra')
+const shell = require('shelljs')
 
 window.addEventListener('load', function () {//window loads
     if (typeof (require) == 'undefined') {//initialize node modules
@@ -9,29 +11,28 @@ window.addEventListener('load', function () {//window loads
         console.log('Running in Node')
     }
 
-    if (localStorage.getItem("APPNAME_cfg")) {
+    if (localStorage.getItem("MCSV_cfg")) {
         config.load()
     } else {
         config.validate()
     }
-
+testserver()
 });
 
 var config = {
     data: {
-        key:"APPNAME_cfg",
-        usecount: 0,
+        key:"MCSV_cfg",
     },
     properties:{
 
     },
     save: function () {//Save the config file
-        localStorage.setItem("APPNAME_cfg", JSON.stringify(config.data))
+        localStorage.setItem("MCSV_cfg", JSON.stringify(config.data))
         console.log('config saved: ')
         console.table(config.data)
     },
     load: function () {//Load the config file into memory
-        config.data = JSON.parse(localStorage.getItem("APPNAME_cfg"))
+        config.data = JSON.parse(localStorage.getItem("MCSV_cfg"))
         console.log('config Loaded: ')
         console.table(config.data)
         this.validate()
@@ -57,7 +58,7 @@ var config = {
         } else { console.log('config was found to be valid') }
     },
     delete: function () {//Does not delete the file itself. Just sets it to empty
-        localStorage.clear("APPNAME_cfg")
+        localStorage.clear("MCSV_cfg")
         console.log('config deleted: ')
         console.table(config.data)
         this.validate()
@@ -65,7 +66,7 @@ var config = {
     backup: function () {//backup configuration to file
         console.log('Configuration backup initiated')
         var date = new Date();
-        var filepath = dialog.showSaveDialog({defaultPath:"APPNAME_cfg backup "+Number(date.getMonth()+1)+" - "+date.getDay()+" - "+date.getFullYear()+".json",buttonLabel:null});
+        var filepath = dialog.showSaveDialog({defaultPath:"MCSVbackup "+Number(date.getMonth()+1)+" - "+date.getDay()+" - "+date.getFullYear()+".json",buttonLabel:null});
         if (filepath == undefined) {//the file save dialogue was canceled my the user
             console.warn('The file dialogue was canceled by the user')
         } else {
@@ -88,7 +89,7 @@ var config = {
                 if (err) { alert("An error ocurred reading the file :" + err.message) }
                 console.log("The file content is : " + data);
                 var fileout = JSON.parse(data)
-                if(fileout.key == "APPNAME_cfg"){//check if this file is a timetable backup file
+                if(fileout.key == "MCSV_cfg"){//check if this file is a timetable backup file
                     config.data = fileout
                     config.save();
                     setTimeout(()=>{location.reload()},2000)
@@ -99,6 +100,11 @@ var config = {
             })
         }
     }
+}
+
+function testserver(){
+    shell.cd('D:/Git/Minecraft-server-maker/assets/Servers/testserver');
+    shell.exec('java -Xmx4096M -Xms4096M -jar server.jar gui')
 }
 
 let utility = {//Misculanious utilites
