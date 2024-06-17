@@ -1,0 +1,975 @@
+[11Jun2024 21:56:34.288] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[11Jun2024 21:56:34.292] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Red Hat, Inc. OpenJDK 64-Bit Server VM 22.0.1+8
+[11Jun2024 21:56:34.295] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 22.0.1 by Red Hat, Inc.; OS Linux arch amd64 version 6.8.11-300.fc40.x86_64
+[11Jun2024 21:56:34.327] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [forge_userdev_client,forge_dev_data,minecraft,forge_userdev_server_gametest,forge_dev_client,forge_userdev_data,forge_dev_server_gametest,testharness,forge_userdev_server,forge_client,forge_dev_server,forge_server]
+[11Jun2024 21:56:34.344] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[11Jun2024 21:56:34.368] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[11Jun2024 21:56:34.379] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[11Jun2024 21:56:34.382] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith
+[11Jun2024 21:56:34.383] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/mods
+[11Jun2024 21:56:34.383] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/config
+[11Jun2024 21:56:34.383] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/config/fml.toml
+[11Jun2024 21:56:34.430] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[11Jun2024 21:56:34.470] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: fml: /
+[11Jun2024 21:56:34.492] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: mixin: /
+[11Jun2024 21:56:34.492] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[11Jun2024 21:56:34.493] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[11Jun2024 21:56:34.493] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[11Jun2024 21:56:34.493] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[11Jun2024 21:56:34.507] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Detected version data : VersionInfo[forgeVersion=50.1.3, mcVersion=1.20.6, mcpVersion=20240429.135109, forgeGroup=net.minecraftforge]
+[11Jun2024 21:56:34.508] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 50.1.3
+[11Jun2024 21:56:34.508] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 50.1.3 loading
+[11Jun2024 21:56:34.509] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ModLauncher version: 10.2.1
+[11Jun2024 21:56:34.509] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found AccessTransformer version: 8.2.0
+[11Jun2024 21:56:34.509] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found EventBus version: 6.2.6
+[11Jun2024 21:56:34.510] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found RuntimeDistCleaner version: 50.1.3
+[11Jun2024 21:56:34.511] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.1.6
+[11Jun2024 21:56:34.512] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI version: 7.1.4
+[11Jun2024 21:56:34.512] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[11Jun2024 21:56:34.513] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[11Jun2024 21:56:34.520] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[11Jun2024 21:56:34.521] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[11Jun2024 21:56:34.564] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in SecureModuleClassLoader[SECURE-BOOTSTRAP]@738433734
+[11Jun2024 21:56:34.582] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
+[11Jun2024 21:56:34.586] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[11Jun2024 21:56:34.587] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[11Jun2024 21:56:34.588] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[11Jun2024 21:56:34.588] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[11Jun2024 21:56:34.589] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[11Jun2024 21:56:34.590] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[11Jun2024 21:56:34.592] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[11Jun2024 21:56:34.592] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[11Jun2024 21:56:34.592] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[11Jun2024 21:56:34.593] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith
+[11Jun2024 21:56:34.593] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/mods
+[11Jun2024 21:56:34.593] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/config
+[11Jun2024 21:56:34.594] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/config/fml.toml
+[11Jun2024 21:56:34.594] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[11Jun2024 21:56:34.596] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[11Jun2024 21:56:34.600] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[11Jun2024 21:56:34.600] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forge_server as launch service
+[11Jun2024 21:56:34.607] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[11Jun2024 21:56:34.607] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[11Jun2024 21:56:34.607] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=net.minecraftforge.fml.loading.MCPNamingService@1556f2dd}
+[11Jun2024 21:56:34.607] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[11Jun2024 21:56:34.609] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[11Jun2024 21:56:34.609] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[11Jun2024 21:56:34.610] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[11Jun2024 21:56:34.610] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[11Jun2024 21:56:34.620] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(minecraft:null),(classpath:null),(forge_dev_locator:null),(forge_userdev_locator:null)
+[11Jun2024 21:56:34.621] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[11Jun2024 21:56:34.728] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.6-50.1.3-server.jar with {minecraft} mods - versions {1.20.6}
+[11Jun2024 21:56:34.793] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/net/minecraftforge/forge/1.20.6-50.1.3/forge-1.20.6-50.1.3-universal.jar
+[11Jun2024 21:56:34.801] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.6-50.1.3-universal.jar with {forge} mods - versions {50.1.3}
+[11Jun2024 21:56:34.825] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.20.6-50.1.3-server.jar, it does not contain dependency information.
+[11Jun2024 21:56:34.826] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.20.6-50.1.3-universal.jar, it does not contain dependency information.
+[11Jun2024 21:56:34.826] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.20.6-50.1.3.jar, it does not contain dependency information.
+[11Jun2024 21:56:34.826] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.20.6-50.1.3.jar, it does not contain dependency information.
+[11Jun2024 21:56:34.826] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.20.6-50.1.3.jar, it does not contain dependency information.
+[11Jun2024 21:56:34.826] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.20.6-50.1.3.jar, it does not contain dependency information.
+[11Jun2024 21:56:34.861] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[11Jun2024 21:56:34.865] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.6-50.1.3-server.jar with {minecraft} mods - versions {1.20.6}
+[11Jun2024 21:56:34.869] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/net/minecraftforge/forge/1.20.6-50.1.3/forge-1.20.6-50.1.3-server.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[11Jun2024 21:56:34.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/net/minecraftforge/forge/1.20.6-50.1.3/forge-1.20.6-50.1.3-universal.jar
+[11Jun2024 21:56:34.872] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.6-50.1.3-universal.jar with {forge} mods - versions {50.1.3}
+[11Jun2024 21:56:34.873] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/net/minecraftforge/forge/1.20.6-50.1.3/forge-1.20.6-50.1.3-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[11Jun2024 21:56:34.879] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[11Jun2024 21:56:34.879] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[11Jun2024 21:56:34.880] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/field_to_method.js
+[11Jun2024 21:56:34.880] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/method_redirector.js
+[11Jun2024 21:56:34.882] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[11Jun2024 21:56:34.901] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[11Jun2024 21:56:34.902] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[11Jun2024 21:56:34.903] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 50
+[11Jun2024 21:56:34.904] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 50.1.3
+[11Jun2024 21:56:34.913] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[11Jun2024 21:56:34.914] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[11Jun2024 21:56:34.915] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[11Jun2024 21:56:34.923] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[11Jun2024 21:56:34.924] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[11Jun2024 21:56:35.318] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 36859 method mappings from methods.csv
+[11Jun2024 21:56:35.363] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 35019 field mappings from fields.csv
+[11Jun2024 21:56:35.378] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[11Jun2024 21:56:35.379] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[11Jun2024 21:56:35.380] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[11Jun2024 21:56:35.380] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[11Jun2024 21:56:35.380] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[11Jun2024 21:56:35.381] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/field_to_method.js
+[11Jun2024 21:56:35.603] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[11Jun2024 21:56:35.603] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/method_redirector.js
+[11Jun2024 21:56:35.751] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[11Jun2024 21:56:35.763] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@518bfd90 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[11Jun2024 21:56:35.765] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@350d3f4d to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[11Jun2024 21:56:35.765] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@18b8d173 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[11Jun2024 21:56:35.765] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@73844119 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[11Jun2024 21:56:35.766] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@44f24a20 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[11Jun2024 21:56:35.766] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[11Jun2024 21:56:35.766] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[11Jun2024 21:56:35.766] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[11Jun2024 21:56:35.767] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[11Jun2024 21:56:35.767] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[11Jun2024 21:56:35.767] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[11Jun2024 21:56:35.768] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[11Jun2024 21:56:35.768] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[11Jun2024 21:56:35.768] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner;} {} {V}
+[11Jun2024 21:56:35.768] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[11Jun2024 21:56:35.769] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[11Jun2024 21:56:35.769] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[11Jun2024 21:56:35.769] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[11Jun2024 21:56:35.769] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[11Jun2024 21:56:35.770] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[11Jun2024 21:56:35.770] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[11Jun2024 21:56:35.770] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[11Jun2024 21:56:35.770] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[11Jun2024 21:56:35.771] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[11Jun2024 21:56:35.771] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[11Jun2024 21:56:35.771] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[11Jun2024 21:56:35.771] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[11Jun2024 21:56:35.772] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1859e2a4 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[11Jun2024 21:56:35.772] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[11Jun2024 21:56:35.791] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[11Jun2024 21:56:35.791] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[11Jun2024 21:56:35.792] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[11Jun2024 21:56:35.792] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[11Jun2024 21:56:35.792] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[11Jun2024 21:56:35.792] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[11Jun2024 21:56:35.793] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[11Jun2024 21:56:35.793] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[11Jun2024 21:56:35.793] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[11Jun2024 21:56:35.793] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[11Jun2024 21:56:35.794] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[11Jun2024 21:56:35.794] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[11Jun2024 21:56:35.794] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[11Jun2024 21:56:35.794] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[11Jun2024 21:56:35.795] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[11Jun2024 21:56:35.795] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[11Jun2024 21:56:35.795] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[11Jun2024 21:56:35.795] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[11Jun2024 21:56:35.796] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[11Jun2024 21:56:35.834] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[11Jun2024 21:56:35.836] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[11Jun2024 21:56:35.921] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[11Jun2024 21:56:35.926] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[11Jun2024 21:56:35.926] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[11Jun2024 21:56:36.194] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[11Jun2024 21:56:36.243] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[11Jun2024 21:56:36.243] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[11Jun2024 21:56:36.280] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[11Jun2024 21:56:36.286] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[11Jun2024 21:56:36.286] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[11Jun2024 21:56:36.287] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[11Jun2024 21:56:36.287] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[11Jun2024 21:56:36.287] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[11Jun2024 21:56:36.290] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[11Jun2024 21:56:36.290] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[11Jun2024 21:56:36.290] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[11Jun2024 21:56:36.291] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[11Jun2024 21:56:36.292] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.292] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.292] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.292] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.293] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[11Jun2024 21:56:36.293] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[11Jun2024 21:56:36.294] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[11Jun2024 21:56:36.294] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[11Jun2024 21:56:36.295] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[11Jun2024 21:56:36.295] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[11Jun2024 21:56:36.295] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.295] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.296] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.296] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.296] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[11Jun2024 21:56:36.296] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[11Jun2024 21:56:36.297] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[11Jun2024 21:56:36.297] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[11Jun2024 21:56:36.297] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[11Jun2024 21:56:36.297] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[11Jun2024 21:56:36.298] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.298] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.298] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.298] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.299] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[11Jun2024 21:56:36.299] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[11Jun2024 21:56:36.299] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[11Jun2024 21:56:36.299] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[11Jun2024 21:56:36.300] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[11Jun2024 21:56:36.300] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[11Jun2024 21:56:36.300] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.300] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.301] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.301] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.301] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[11Jun2024 21:56:36.301] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[11Jun2024 21:56:36.303] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[11Jun2024 21:56:36.303] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[11Jun2024 21:56:36.303] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[11Jun2024 21:56:36.304] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[11Jun2024 21:56:36.304] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[11Jun2024 21:56:36.304] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[11Jun2024 21:56:36.305] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[11Jun2024 21:56:36.305] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[11Jun2024 21:56:36.305] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[11Jun2024 21:56:36.306] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.306] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.306] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.306] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.306] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[11Jun2024 21:56:36.307] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[11Jun2024 21:56:36.307] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[11Jun2024 21:56:36.307] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[11Jun2024 21:56:36.308] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[11Jun2024 21:56:36.308] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[11Jun2024 21:56:36.308] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.308] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.308] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.309] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.309] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[11Jun2024 21:56:36.309] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[11Jun2024 21:56:36.310] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[11Jun2024 21:56:36.310] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[11Jun2024 21:56:36.310] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[11Jun2024 21:56:36.310] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[11Jun2024 21:56:36.311] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.311] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.311] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.311] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.311] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[11Jun2024 21:56:36.312] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[11Jun2024 21:56:36.312] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[11Jun2024 21:56:36.312] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[11Jun2024 21:56:36.312] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[11Jun2024 21:56:36.313] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[11Jun2024 21:56:36.313] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.313] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.313] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.313] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.314] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[11Jun2024 21:56:36.314] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[11Jun2024 21:56:36.315] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[11Jun2024 21:56:36.315] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[11Jun2024 21:56:36.315] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[11Jun2024 21:56:36.315] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[11Jun2024 21:56:36.316] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[11Jun2024 21:56:36.316] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[11Jun2024 21:56:36.316] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[11Jun2024 21:56:36.317] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[11Jun2024 21:56:36.317] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[11Jun2024 21:56:36.317] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.317] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.318] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.318] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.318] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[11Jun2024 21:56:36.318] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[11Jun2024 21:56:36.318] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[11Jun2024 21:56:36.319] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[11Jun2024 21:56:36.319] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[11Jun2024 21:56:36.319] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[11Jun2024 21:56:36.319] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.319] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.320] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.320] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.320] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[11Jun2024 21:56:36.320] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[11Jun2024 21:56:36.320] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[11Jun2024 21:56:36.321] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[11Jun2024 21:56:36.321] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[11Jun2024 21:56:36.321] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[11Jun2024 21:56:36.321] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.321] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.321] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.322] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.322] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[11Jun2024 21:56:36.322] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[11Jun2024 21:56:36.322] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[11Jun2024 21:56:36.322] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[11Jun2024 21:56:36.323] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[11Jun2024 21:56:36.323] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[11Jun2024 21:56:36.323] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.323] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.323] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.323] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.324] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[11Jun2024 21:56:36.324] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[11Jun2024 21:56:36.325] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[11Jun2024 21:56:36.325] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[11Jun2024 21:56:36.325] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[11Jun2024 21:56:36.325] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[11Jun2024 21:56:36.326] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[11Jun2024 21:56:36.326] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[11Jun2024 21:56:36.326] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[11Jun2024 21:56:36.327] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[11Jun2024 21:56:36.327] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[11Jun2024 21:56:36.327] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.327] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[11Jun2024 21:56:36.327] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.328] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[11Jun2024 21:56:36.328] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[11Jun2024 21:56:36.328] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[11Jun2024 21:56:36.328] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[11Jun2024 21:56:36.329] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[11Jun2024 21:56:36.329] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[11Jun2024 21:56:36.329] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[11Jun2024 21:56:36.329] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.329] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[11Jun2024 21:56:36.330] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.330] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[11Jun2024 21:56:36.330] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[11Jun2024 21:56:36.330] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[11Jun2024 21:56:36.330] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[11Jun2024 21:56:36.331] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[11Jun2024 21:56:36.331] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[11Jun2024 21:56:36.331] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[11Jun2024 21:56:36.331] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.331] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[11Jun2024 21:56:36.332] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.332] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[11Jun2024 21:56:36.332] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[11Jun2024 21:56:36.332] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[11Jun2024 21:56:36.333] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[11Jun2024 21:56:36.333] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[11Jun2024 21:56:36.333] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[11Jun2024 21:56:36.333] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[11Jun2024 21:56:36.333] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.334] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[11Jun2024 21:56:36.334] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.334] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[11Jun2024 21:56:36.334] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[11Jun2024 21:56:36.334] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[11Jun2024 21:56:36.339] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[11Jun2024 21:56:36.497] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[11Jun2024 21:56:36.500] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[11Jun2024 21:56:36.660] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[11Jun2024 21:56:36.661] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[11Jun2024 21:56:37.052] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[11Jun2024 21:56:38.029] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[11Jun2024 21:56:38.337] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[11Jun2024 21:56:38.934] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[11Jun2024 21:56:39.598] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[11Jun2024 21:56:41.145] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[11Jun2024 21:56:41.217] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[11Jun2024 21:56:42.514] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[11Jun2024 21:56:42.575] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[11Jun2024 21:56:42.647] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[11Jun2024 21:56:42.721] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[11Jun2024 21:56:42.874] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[11Jun2024 21:56:42.908] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[11Jun2024 21:56:43.058] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[11Jun2024 21:56:44.505] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[11Jun2024 21:56:44.536] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[11Jun2024 21:56:44.564] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[11Jun2024 21:56:44.596] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[11Jun2024 21:56:45.388] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6983
+[11Jun2024 21:56:45.420] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
+[11Jun2024 21:56:45.432] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader TransformingClassLoader[TRANSFORMER]@1756988236 - got SecureModuleClassLoader[LAYER PLUGIN]@2012095985
+[11Jun2024 21:56:45.434] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[11Jun2024 21:56:45.506] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from TransformingClassLoader[TRANSFORMER]@1756988236
+[11Jun2024 21:56:45.508] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 50.1.3
+[11Jun2024 21:56:45.508] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 0.0
+[11Jun2024 21:56:45.509] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[11Jun2024 21:56:45.510] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.6 from TransformingClassLoader[TRANSFORMER]@1756988236
+[11Jun2024 21:56:45.510] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.6
+[11Jun2024 21:56:45.510] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20240429.135109
+[11Jun2024 21:56:45.510] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.3, for MC 1.20.6 with MCP 20240429.135109
+[11Jun2024 21:56:45.514] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.3 Initialized
+[11Jun2024 21:56:45.531] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[11Jun2024 21:56:45.559] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[11Jun2024 21:56:45.559] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 22
+[11Jun2024 21:56:45.560] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[11Jun2024 21:56:45.561] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[11Jun2024 21:56:45.561] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[11Jun2024 21:56:45.562] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[11Jun2024 21:56:45.562] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:289) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at TRANSFORMER/forge@50.1.3/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.20.6-50.1.3-universal.jar:?]
+	at TRANSFORMER/forge@50.1.3/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:389) ~[forge-1.20.6-50.1.3-universal.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.20.6-50.1.3/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:66) ~[javafmllanguage-1.20.6-50.1.3.jar!/:50.1.3]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.20.6-50.1.3/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125) ~[fmlcore-1.20.6-50.1.3.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
+[11Jun2024 21:56:45.572] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[11Jun2024 21:56:45.573] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:398) ~[?:?]
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:709) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:571) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:411) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:402) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at TRANSFORMER/forge@50.1.3/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.20.6-50.1.3-universal.jar:?]
+	at TRANSFORMER/forge@50.1.3/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:389) ~[forge-1.20.6-50.1.3-universal.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.20.6-50.1.3/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:66) ~[javafmllanguage-1.20.6-50.1.3.jar!/:50.1.3]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.20.6-50.1.3/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125) ~[fmlcore-1.20.6-50.1.3.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
+[11Jun2024 21:56:45.575] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[11Jun2024 21:56:45.575] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[11Jun2024 21:56:45.576] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4194304000 bytes (maybe)
+[11Jun2024 21:56:45.577] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[11Jun2024 21:56:45.577] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[11Jun2024 21:56:45.578] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[11Jun2024 21:56:45.578] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[11Jun2024 21:56:45.583] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[11Jun2024 21:56:45.583] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[11Jun2024 21:56:45.666] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:login v0
+[11Jun2024 21:56:45.666] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:handshake v0
+[11Jun2024 21:56:45.668] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:handshake v0
+[11Jun2024 21:56:45.668] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:channel_registration v0
+[11Jun2024 21:56:45.727] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[11Jun2024 21:56:45.728] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[11Jun2024 21:56:45.728] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[11Jun2024 21:56:45.786] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[11Jun2024 21:56:45.790] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[11Jun2024 21:56:46.073] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[11Jun2024 21:56:46.074] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[11Jun2024 21:56:46.075] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[11Jun2024 21:56:46.075] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[11Jun2024 21:56:46.599] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[11Jun2024 21:56:47.017] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Jun2024 21:56:48.871] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11Jun2024 21:56:50.059] [main/DEBUG] [net.minecraftforge.resource.ResourcePackLoader/CORE]: Generating PackInfo named mod:forge for mod file /home/samuel/Code_bin/Minecraft-server-maker/Servers/terralith/libraries/net/minecraftforge/forge/1.20.6-50.1.3/forge-1.20.6-50.1.3-universal.jar
+[11Jun2024 21:56:51.739] [Worker-Main-3/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[11Jun2024 21:56:52.218] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1175 recipes
+[11Jun2024 21:56:52.661] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1276 advancements
+[11Jun2024 21:56:52.692] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.2.0",
+    "1.18.2-latest": "40.2.21",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.4.0",
+    "1.19.2-latest": "43.4.0",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.3.0",
+    "1.19.4-latest": "45.3.0",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.3.0",
+    "1.20.1-latest": "47.3.1",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.1.0",
+    "1.20.4-recommended": "49.1.0",
+    "1.20.6-latest": "50.1.3",
+    "1.20.6-recommended": "50.1.0"
+  }
+}
+[11Jun2024 21:56:52.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 50.1.3 Target: null
+[11Jun2024 21:56:53.240] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 21:56:53.257] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 21:56:53.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.6
+[11Jun2024 21:56:53.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Jun2024 21:56:53.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Jun2024 21:56:53.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Jun2024 21:56:53.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Jun2024 21:56:53.648] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv4 address: "0.0.0.0"
+[11Jun2024 21:56:53.659] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[11Jun2024 21:56:53.660] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[11Jun2024 21:56:53.660] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[11Jun2024 21:56:53.660] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[11Jun2024 21:56:53.674] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_641448617092645772089.so
+[11Jun2024 21:56:53.679] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: true
+[11Jun2024 21:56:53.679] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[11Jun2024 21:56:53.681] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[11Jun2024 21:56:53.682] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[11Jun2024 21:56:53.691] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 8
+[11Jun2024 21:56:53.700] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[11Jun2024 21:56:53.708] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[11Jun2024 21:56:53.708] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[11Jun2024 21:56:53.722] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[11Jun2024 21:56:53.729] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Jun2024 21:56:53.746] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 170216 (auto-detected)
+[11Jun2024 21:56:53.747] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 5c:b9:01:ff:fe:ab:8f:55 (auto-detected)
+[11Jun2024 21:56:53.778] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 8
+[11Jun2024 21:56:53.778] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 8
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[11Jun2024 21:56:53.779] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[11Jun2024 21:56:53.788] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[11Jun2024 21:56:53.788] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[11Jun2024 21:56:53.788] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[11Jun2024 21:56:53.798] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Jun2024 21:56:53.798] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Jun2024 21:56:53.799] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Jun2024 21:56:53.799] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Jun2024 21:56:53.814] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[11Jun2024 21:56:53.816] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./Minecrift/serverconfig/forge-server.toml
+[11Jun2024 21:56:53.817] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./Minecrift/serverconfig/forge-server.toml
+[11Jun2024 21:56:53.845] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./Minecrift/serverconfig/forge-server.toml for changes
+[11Jun2024 21:56:53.849] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[11Jun2024 21:56:53.850] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[11Jun2024 21:56:53.850] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[11Jun2024 21:56:53.851] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[11Jun2024 21:56:53.852] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[11Jun2024 21:56:53.904] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Minecrift"
+[11Jun2024 21:56:53.910] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[11Jun2024 21:56:53.922] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[11Jun2024 21:56:53.933] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[11Jun2024 21:56:53.942] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[11Jun2024 21:57:01.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Jun2024 21:57:02.552] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2024 21:57:02.553] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2024 21:57:02.562] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2024 21:57:02.584] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2024 21:57:03.020] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2024 21:57:03.503] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[11Jun2024 21:57:03.729] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jun2024 21:57:04.017] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[11Jun2024 21:57:04.051] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3036 ms
+[11Jun2024 21:57:04.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.239s)! For help, type "help"
+[11Jun2024 21:57:04.059] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv4 address: "0.0.0.0"
+[11Jun2024 21:57:04.065] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 0
+[11Jun2024 21:57:04.068] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Jun2024 21:57:04.091] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[11Jun2024 21:57:04.091] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[11Jun2024 21:57:04.092] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@47ae3b8f
+[11Jun2024 21:57:04.117] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[11Jun2024 22:02:04.640] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:02:04.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:06:23.427] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[11Jun2024 22:06:23.428] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[11Jun2024 22:06:23.428] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[11Jun2024 22:06:23.428] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[11Jun2024 22:06:23.428] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[11Jun2024 22:06:23.446] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:06:23.446] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:06:23.446] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:06:23.447] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[11Jun2024 22:06:23.453] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@b457ac into net.minecraft.network.Connection@7efccd7b
+[11Jun2024 22:06:24.498] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samue[/192.168.0.200:50070] logged in with entity id 22 at (93.49583414974026, -30.0, -5.620203624400289)
+[11Jun2024 22:06:24.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue joined the game
+[11Jun2024 22:06:24.764] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x5f91a719c1ed62f3
+[11Jun2024 22:07:04.884] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:07:04.897] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:08:07.314] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:08:07.314] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:08:07.314] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:08:07.314] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[11Jun2024 22:08:07.314] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@36240e43 into net.minecraft.network.Connection@321b9c5f
+[11Jun2024 22:08:08.390] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: simo[/192.168.0.17:53532] logged in with entity id 601 at (149.69999998807907, 8.0, 14.699999988079071)
+[11Jun2024 22:08:08.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo joined the game
+[11Jun2024 22:08:34.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> wish youd get out maaa face
+[11Jun2024 22:09:09.974] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:09:09.975] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:09:09.975] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[11Jun2024 22:09:09.975] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[11Jun2024 22:09:09.975] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@7ff18b49 into net.minecraft.network.Connection@7bce006f
+[11Jun2024 22:09:12.050] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Moth[/192.168.0.15:50288] logged in with entity id 751 at (148.69999998807907, 8.0, 15.588009744645602)
+[11Jun2024 22:09:12.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Moth joined the game
+[11Jun2024 22:09:13.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> might go m i a, might just blow my brains, might be curt cobain, i cant feel my face, i cant feel my face, i cant feel my face, i cant feel my faaaace
+[11Jun2024 22:11:58.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> why
+[11Jun2024 22:12:04.824] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:12:04.836] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:12:12.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i fell off my thing just to answwer you
+[11Jun2024 22:12:16.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> also youre just blind
+[11Jun2024 22:12:25.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> aww
+[11Jun2024 22:12:27.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> now i feel bad
+[11Jun2024 22:12:45.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> just go back to whwre you came from
+[11Jun2024 22:12:55.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> then unfall
+[11Jun2024 22:13:02.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> just beat asgore and break the barrier bro
+[11Jun2024 22:13:10.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> only seth with get it
+[11Jun2024 22:13:20.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> (seth doesnt get it)
+[11Jun2024 22:13:34.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> what is a woman
+[11Jun2024 22:13:46.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> sexism my beloved
+[11Jun2024 22:16:55.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yes its onot far
+[11Jun2024 22:17:03.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i ned food
+[11Jun2024 22:17:04.742] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:17:04.756] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:17:20.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue has made the advancement [Take Aim]
+[11Jun2024 22:17:22.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fanks
+[11Jun2024 22:17:22.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yes
+[11Jun2024 22:17:33.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Moth has made the advancement [Diamonds!]
+[11Jun2024 22:17:42.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> shovel
+[11Jun2024 22:17:50.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> no
+[11Jun2024 22:17:54.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> use the diamond to make a spade
+[11Jun2024 22:18:04.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> we'll need it sooner or later
+[11Jun2024 22:18:10.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> facts and logi
+[11Jun2024 22:18:20.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> we just spawned looool
+[11Jun2024 22:18:27.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fair enough
+[11Jun2024 22:18:28.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> speedrun
+[11Jun2024 22:19:09.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> dead end
+[11Jun2024 22:19:31.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> bro im going back to the second layer
+[11Jun2024 22:19:44.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yes
+[11Jun2024 22:19:47.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> but we going back up
+[11Jun2024 22:20:02.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> craft me a hoe and a spade
+[11Jun2024 22:20:36.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ench tab
+[11Jun2024 22:22:04.789] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:22:04.806] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:23:05.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue has made the advancement [Diamonds!]
+[11Jun2024 22:23:17.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> no
+[11Jun2024 22:23:19.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fagget
+[11Jun2024 22:23:27.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> faggot
+[11Jun2024 22:23:29.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fagget
+[11Jun2024 22:24:13.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> pickaxe first
+[11Jun2024 22:24:18.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> then ench table
+[11Jun2024 22:24:25.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> then everybody gets a pickaxe
+[11Jun2024 22:27:04.747] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:27:04.764] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:28:03.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> not yert
+[11Jun2024 22:28:31.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samue> 71 -11 5
+[11Jun2024 22:28:35.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> samue
+[11Jun2024 22:32:05.065] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:32:05.073] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:34:25.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ptsd
+[11Jun2024 22:34:29.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> me
+[11Jun2024 22:34:32.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ?
+[11Jun2024 22:35:45.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue drowned
+[11Jun2024 22:36:37.128] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samue moved too quickly! -66.99730781682632,71.1764411196995,-42.80000001192093
+[11Jun2024 22:37:04.784] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:37:04.798] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:38:21.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> -66 71
+[11Jun2024 22:39:04.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Samue to Moth
+[11Jun2024 22:39:31.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue was doomed to fall by Skeleton
+[11Jun2024 22:40:22.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Samue to Moth
+[11Jun2024 22:40:22.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samue moved too quickly! 106.02962986522311,-89.62274397646733,95.46991202817695
+[11Jun2024 22:42:04.759] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:42:04.774] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:47:04.842] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:47:04.855] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:48:11.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue burned to death
+[11Jun2024 22:49:26.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo was shot by Skeleton
+[11Jun2024 22:51:39.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 8 [Diamond] to Samue
+[11Jun2024 22:52:05.081] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:52:05.088] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:52:27.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Iron Ingot] to Samue
+[11Jun2024 22:53:08.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Redstone Dust] to Samue
+[11Jun2024 22:53:13.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Spruce Planks] to Samue
+[11Jun2024 22:53:46.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'minecraft:dye'
+[11Jun2024 22:53:46.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...ive samue minecraft:dye 1 4<--[HERE]
+[11Jun2024 22:53:58.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue has made the advancement [Ice Bucket Challenge]
+[11Jun2024 22:53:58.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 12 [Obsidian] to Samue
+[11Jun2024 22:55:05.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo has made the advancement [Diamonds!]
+[11Jun2024 22:57:04.982] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 22:57:04.987] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 22:57:09.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> :skull:
+[11Jun2024 22:57:35.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> possiby not
+[11Jun2024 22:57:41.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> but im not intrested in small fry caves
+[11Jun2024 22:57:43.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> back up
+[11Jun2024 22:57:52.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue has made the advancement [A Seedy Place]
+[11Jun2024 22:57:55.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> no
+[11Jun2024 22:58:06.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> nae
+[11Jun2024 22:59:18.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> seth
+[11Jun2024 22:59:20.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> pree
+[11Jun2024 22:59:39.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> hell yeah
+[11Jun2024 22:59:42.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> just the ravine
+[11Jun2024 22:59:56.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> food
+[11Jun2024 23:00:17.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> behind you
+[11Jun2024 23:00:19.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> seth
+[11Jun2024 23:00:20.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> omg
+[11Jun2024 23:00:23.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> nv,
+[11Jun2024 23:00:25.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> nvm
+[11Jun2024 23:00:38.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> bed
+[11Jun2024 23:00:41.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> nigger
+[11Jun2024 23:00:47.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> bro just cannonballed
+[11Jun2024 23:00:55.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fair enough
+[11Jun2024 23:01:03.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> cotton picking nigger
+[11Jun2024 23:01:04.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fuck
+[11Jun2024 23:01:25.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> me neither
+[11Jun2024 23:01:31.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> real
+[11Jun2024 23:01:34.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> soon
+[11Jun2024 23:01:36.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> nah
+[11Jun2024 23:01:49.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i have one
+[11Jun2024 23:01:54.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> kys
+[11Jun2024 23:02:04.727] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:02:04.744] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:02:22.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yu just suck
+[11Jun2024 23:02:24.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> nah
+[11Jun2024 23:02:29.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> that was a joke btw sam
+[11Jun2024 23:02:36.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> karma will get me
+[11Jun2024 23:02:42.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> :'(
+[11Jun2024 23:02:48.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> wow
+[11Jun2024 23:02:50.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ;)
+[11Jun2024 23:02:56.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ;-)
+[11Jun2024 23:03:01.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> diamo
+[11Jun2024 23:03:38.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yeah
+[11Jun2024 23:03:49.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> she a baddy she know she a 10
+[11Jun2024 23:03:50.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Moth has made the advancement [Ice Bucket Challenge]
+[11Jun2024 23:04:09.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> if the money wasnt coming....
+[11Jun2024 23:04:16.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> then all the people here would leave
+[11Jun2024 23:04:25.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> do you know how ahard it is to stomach
+[11Jun2024 23:04:33.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> that theyl toss you out whenever they please
+[11Jun2024 23:05:06.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> im a commodity, an oddity, my hgihschool friends, wont talk to me, in all hoonesty, its probably,cuz im in a place, they want to be, but it costed me, almost everythiiiing
+[11Jun2024 23:05:26.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> :')
+[11Jun2024 23:05:35.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Moth> make d pick and help me you cocksucking cum guzzler
+[11Jun2024 23:05:44.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i have 2 diamonds
+[11Jun2024 23:05:49.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> plus we need the ench table
+[11Jun2024 23:05:55.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> oh sick
+[11Jun2024 23:06:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i want out of this stinky cave
+[11Jun2024 23:06:26.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo has made the advancement [Ice Bucket Challenge]
+[11Jun2024 23:06:28.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Moth> stiiiin keeeey
+[11Jun2024 23:06:32.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> sam doesnt know the door trick
+[11Jun2024 23:06:42.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> craft a door with a table lol
+[11Jun2024 23:06:49.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yes.
+[11Jun2024 23:06:56.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> speedrunners do it while swimming in lava
+[11Jun2024 23:07:03.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> the joke is im being insane
+[11Jun2024 23:07:04.898] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:07:04.916] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:07:12.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i mean its true
+[11Jun2024 23:07:17.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> but youre not a speedrunner
+[11Jun2024 23:07:59.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> how much obs do we have
+[11Jun2024 23:08:48.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> c1248 i think
+[11Jun2024 23:08:56.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> sumn like that
+[11Jun2024 23:09:14.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> oopsies
+[11Jun2024 23:10:06.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> that ssong reminds me of genshin
+[11Jun2024 23:10:09.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> early days genshin
+[11Jun2024 23:10:20.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> when it was novel and the songs were nostalgic
+[11Jun2024 23:10:45.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> loool
+[11Jun2024 23:11:02.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> liyue city music is literally the best song ever
+[11Jun2024 23:11:13.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Moth> nah sumeru +1
+[11Jun2024 23:11:14.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i never played sumeru loool
+[11Jun2024 23:11:20.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> so that msuic holds no value to me
+[11Jun2024 23:12:04.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:12:04.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:12:04.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> proj protection 2
+[11Jun2024 23:13:20.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> lolol seth
+[11Jun2024 23:13:30.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i was chilling and i just saw the enderman get pissy for no reason
+[11Jun2024 23:13:34.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> so i swung first
+[11Jun2024 23:13:46.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> id rather shoot first and be wrong then get shoot blud
+[11Jun2024 23:14:01.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> its black and its real
+[11Jun2024 23:14:10.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> is ench tale crafted
+[11Jun2024 23:14:16.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yay
+[11Jun2024 23:14:22.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> time to give my stuff terrible enchants
+[11Jun2024 23:14:43.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo has made the advancement [Enchanter]
+[11Jun2024 23:15:19.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Moth has made the advancement [Enchanter]
+[11Jun2024 23:15:39.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue has made the advancement [Enchanter]
+[11Jun2024 23:15:52.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> how do we have NO coal :skull:
+[11Jun2024 23:15:54.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> jungle
+[11Jun2024 23:16:05.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> give
+[11Jun2024 23:16:09.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> pwease
+[11Jun2024 23:16:14.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fanks
+[11Jun2024 23:16:27.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i love you big brother
+[11Jun2024 23:16:33.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> im gonna craft el anvil
+[11Jun2024 23:16:40.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> too late
+[11Jun2024 23:16:42.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> joking
+[11Jun2024 23:16:51.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> he just tried to murder me with his anvil
+[11Jun2024 23:16:58.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> also im pretty sure mining it damages it
+[11Jun2024 23:17:04.896] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:17:04.903] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:17:09.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> bro chiiilll
+[11Jun2024 23:17:50.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> that rhymed
+[11Jun2024 23:17:53.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> alright seth
+[11Jun2024 23:17:59.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> find a location in the jungle now
+[11Jun2024 23:18:05.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> and i will start building farms and ting
+[11Jun2024 23:18:16.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> dooont care
+[11Jun2024 23:18:21.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> scenic view would be better
+[11Jun2024 23:18:25.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> but dooont care
+[11Jun2024 23:18:34.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ill probably end up mining up the entire jungle anywasy
+[11Jun2024 23:18:35.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> wait
+[11Jun2024 23:18:44.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i have efficiency 2 axe
+[11Jun2024 23:19:03.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> where are you
+[11Jun2024 23:19:10.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> seth
+[11Jun2024 23:19:22.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> wait
+[11Jun2024 23:19:25.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> can i mine for you
+[11Jun2024 23:19:27.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> and you build
+[11Jun2024 23:19:35.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> which would you want bwoy
+[11Jun2024 23:19:41.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> okaaay
+[11Jun2024 23:20:11.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> jajajajjaja
+[11Jun2024 23:21:48.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> what
+[11Jun2024 23:21:54.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> loool
+[11Jun2024 23:21:58.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> im on my wa
+[11Jun2024 23:22:05.150] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:22:05.171] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:22:05.592] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: simo moved too quickly! -7.387621935282553,0.0,6.805623284953754
+[11Jun2024 23:22:18.167] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-99, y=72, z=-258} BlockPos{x=-100, y=71, z=-260}
+[11Jun2024 23:22:50.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> tamp out the lava ofc
+[11Jun2024 23:24:15.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> no idea where you are el oh el
+[11Jun2024 23:24:31.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> thats the plan
+[11Jun2024 23:24:47.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> huh
+[11Jun2024 23:24:56.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> what aout it
+[11Jun2024 23:25:01.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> sure
+[11Jun2024 23:25:13.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> is it still raining
+[11Jun2024 23:27:05.205] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:27:05.220] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:28:42.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo has made the advancement [Fishy Business]
+[11Jun2024 23:29:03.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> im fishing at the farm
+[11Jun2024 23:29:04.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> seth
+[11Jun2024 23:29:09.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> scale the hill
+[11Jun2024 23:29:18.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> theres a big ass valey with surrounded by 4 biomes
+[11Jun2024 23:29:24.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> see if you want to build the place there
+[11Jun2024 23:29:58.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> unbreaking 3 rod lol
+[11Jun2024 23:30:08.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> use ur head nigger
+[11Jun2024 23:30:16.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> yay bingo
+[11Jun2024 23:30:54.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> groom groom groom groom
+[11Jun2024 23:30:58.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> i want you in my room
+[11Jun2024 23:31:09.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> but only if youre 16 cant have you if youre 18
+[11Jun2024 23:31:19.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> groom groom groom groom
+[11Jun2024 23:31:31.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Moth has made the advancement [Fishy Business]
+[11Jun2024 23:32:04.965] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:32:04.983] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:36:07.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue has made the advancement [Fishy Business]
+[11Jun2024 23:36:26.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo has made the advancement [The Parrots and the Bats]
+[11Jun2024 23:37:04.760] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:37:04.772] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:38:48.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> who told soundtrack producer to cook so hard
+[11Jun2024 23:39:27.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> fidn the house location asap seth ickle
+[11Jun2024 23:39:47.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> everything reminds me of her ^-^
+[11Jun2024 23:39:57.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> thats what theyre called
+[11Jun2024 23:40:03.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> karot i thinl
+[11Jun2024 23:40:07.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ^
+[11Jun2024 23:40:26.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> oh
+[11Jun2024 23:40:28.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> seth
+[11Jun2024 23:40:34.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> theres a jungle edge biome over here
+[11Jun2024 23:40:37.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> rare biome
+[11Jun2024 23:40:42.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> its like jungle but sparse
+[11Jun2024 23:40:51.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> uuuuh
+[11Jun2024 23:40:57.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> its further
+[11Jun2024 23:41:00.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> skull
+[11Jun2024 23:41:04.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> idk how to describe it
+[11Jun2024 23:41:15.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> just go further towards the direction of the animal trap from where we came
+[11Jun2024 23:42:04.773] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:42:04.788] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:42:09.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> melooon
+[11Jun2024 23:42:16.341] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-253, y=73, z=248} BlockPos{x=-244, y=76, z=271}
+[11Jun2024 23:42:21.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> bambooshka
+[11Jun2024 23:43:48.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> wolfeee
+[11Jun2024 23:44:12.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> me?
+[11Jun2024 23:44:15.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> im far el oh el
+[11Jun2024 23:44:21.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> gay
+[11Jun2024 23:44:26.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> ugh
+[11Jun2024 23:47:05.096] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:47:05.103] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:51:26.422] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3152ms or 63 ticks behind
+[11Jun2024 23:52:08.140] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:52:08.145] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:54:47.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Moth> simo did you go past the acacia 2.0?
+[11Jun2024 23:54:55.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> nooo idea
+[11Jun2024 23:54:58.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> im way out in the ocean
+[11Jun2024 23:57:08.501] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[11Jun2024 23:57:08.515] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[11Jun2024 23:57:28.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> omw home
+[11Jun2024 23:57:32.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <simo> when i reach home im logging off
+[12Jun2024 00:01:46.865] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[12Jun2024 00:02:08.213] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[12Jun2024 00:02:08.219] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[12Jun2024 00:02:33.129] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: simo lost connection: Disconnected
+[12Jun2024 00:02:33.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: simo left the game
+[12Jun2024 00:05:57.011] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Moth lost connection: Disconnected
+[12Jun2024 00:05:57.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Moth left the game
+[12Jun2024 00:06:04.242] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samue lost connection: Disconnected
+[12Jun2024 00:06:04.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samue left the game
+[12Jun2024 00:06:11.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Jun2024 00:06:11.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Jun2024 00:06:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Jun2024 00:06:11.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Jun2024 00:06:11.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:overworld
+[12Jun2024 00:09:04.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:the_end
+[12Jun2024 00:09:04.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:the_nether
+[12Jun2024 00:09:04.362] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Minecrift
+[12Jun2024 00:09:04.368] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Minecrift
+[12Jun2024 00:09:04.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Minecrift): All chunks are saved
+[12Jun2024 00:09:04.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jun2024 00:09:04.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jun2024 00:09:04.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Jun2024 00:09:06.113] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
