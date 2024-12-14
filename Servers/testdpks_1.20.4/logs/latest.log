@@ -1,0 +1,806 @@
+[19:19:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:19:44] [ServerMain/INFO]: Found new data pack file/action-healthbar-v1-1-1-21.zip, loading it automatically
+[19:19:48] [Worker-Main-9/WARN]: Invalid path in datapack: wasd.crossbow:recipes/NBT Recipes.zip, ignoring
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/iron_tier - No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/iron/axe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/iron/hoe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/iron/pickaxe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/iron/shovel"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/iron/sword"}]
+[19:19:49] [Worker-Main-10/ERROR]: Couldn't parse element predicates:wep:netherite_application/1 - Not a json array: {"condition":"minecraft:any_of","terms":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{Inventory:[{id:\"minecraft:diamond_sword\",Count:1b,tag:{CustomModelData:99991,Slot:1b}]}"}}]}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/wood/hoe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130502,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Hoe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["hoe_wood_tier","automaticon","ac_hoe"],"HandItems":[{},{"id":"minecraft:wooden_hoe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/diamond/hoe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130522,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Hoe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["hoe_diamond_tier","automaticon","ac_hoe"],"HandItems":[{},{"id":"minecraft:diamond_hoe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/netherite_tier - No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/netherite/axe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/netherite/hoe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/netherite/pickaxe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/netherite/shovel"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/netherite/sword"}]
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/wood/pickaxe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130503,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Pickaxe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["pickaxe_wood_tier","automaticon","ac_pickaxe"],"HandItems":[{},{"id":"minecraft:wooden_pickaxe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/wood_tier - No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/wood/axe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/wood/hoe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/wood/pickaxe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/wood/shovel"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/wood/sword"}]
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/stone/hoe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130507,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Hoe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["hoe_stone_tier","automaticon","ac_hoe"],"HandItems":[{},{"id":"minecraft:stone_hoe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/iron/axe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130516,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Axe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["axe_iron_tier","automaticon","ac_axe"],"HandItems":[{},{"id":"minecraft:iron_axe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/gold/pickaxe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130513,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Pickaxe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["pickaxe_gold_tier","automaticon","ac_pickaxe"],"HandItems":[{},{"id":"minecraft:golden_pickaxe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/stone/pickaxe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130508,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Pickaxe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["pickaxe_stone_tier","automaticon","ac_pickaxe"],"HandItems":[{},{"id":"minecraft:stone_pickaxe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/netherite/sword - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130530,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Sword Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["sword_netherite_tier","automaticon","ac_sword"],"HandItems":[{},{"id":"minecraft:netherite_sword","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/any_tier - No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/netherite_tier"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/diamond_tier"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/iron_tier"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures/automaticonsgold_tier"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/stone_tier"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/wood_tier"}]
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/stone/sword - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130510,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Sword Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["sword_stone_tier","automaticon","ac_sword"],"HandItems":[{},{"id":"minecraft:stone_sword","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/stone_tier - No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/stone/axe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/stone/hoe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/stone/pickaxe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/stone/shovel"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/stone/sword"}]
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/stone/shovel - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130509,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Shovel Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["shovel_stone_tier","automaticon","ac_shovel"],"HandItems":[{},{"id":"minecraft:stone_shovel","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/diamond/pickaxe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130523,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Pickaxe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["pickaxe_diamond_tier","automaticon","ac_pickaxe"],"HandItems":[{},{"id":"minecraft:diamond_pickaxe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/iron/pickaxe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130518,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Pickaxe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["pickaxe_iron_tier","automaticon","ac_pickaxe"],"HandItems":[{},{"id":"minecraft:iron_pickaxe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/wood/sword - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130505,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Sword Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["sword_wood_tier","automaticon","ac_sword"],"HandItems":[{},{"id":"minecraft:wooden_sword","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/netherite/shovel - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130529,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Shovel Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["shovel_netherite_tier","automaticon","ac_shovel"],"HandItems":[{},{"id":"minecraft:netherite_shovel","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/iron/sword - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130520,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Sword Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["sword_iron_tier","automaticon","ac_sword"],"HandItems":[{},{"id":"minecraft:iron_sword","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/netherite/pickaxe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130528,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Pickaxe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["pickaxe_netherite_tier","automaticon","ac_pickaxe"],"HandItems":[{},{"id":"minecraft:netherite_pickaxe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/gold/axe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130511,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Axe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["axe_gold_tier","automaticon","ac_axe"],"HandItems":[{},{"id":"minecraft:golden_axe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/iron/shovel - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130519,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Shovel Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["shovel_iron_tier","automaticon","ac_shovel"],"HandItems":[{},{"id":"minecraft:iron_shovel","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/diamond/axe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130521,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Axe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["axe_diamond_tier","automaticon","ac_axe"],"HandItems":[{},{"id":"minecraft:diamond_axe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/iron/hoe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130517,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Iron Hoe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["hoe_iron_tier","automaticon","ac_hoe"],"HandItems":[{},{"id":"minecraft:iron_hoe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/stone/axe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130506,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Stone Axe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["axe_stone_tier","automaticon","ac_axe"],"HandItems":[{},{"id":"minecraft:stone_axe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/wood/axe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130501,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Axe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["axe_wood_tier","automaticon","ac_axe"],"HandItems":[{},{"id":"minecraft:wooden_axe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/diamond/sword - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130525,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Sword Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["sword_diamond_tier","automaticon","ac_sword"],"HandItems":[{},{"id":"minecraft:diamond_sword","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/gold/sword - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130515,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Sword Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["sword_gold_tier","automaticon","ac_sword"],"HandItems":[{},{"id":"minecraft:golden_sword","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/diamond/shovel - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130524,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Diamond Shovel Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["shovel_diamond_tier","automaticon","ac_shovel"],"HandItems":[{},{"id":"minecraft:diamond_shovel","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/netherite/axe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130526,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Axe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["axe_netherite_tier","automaticon","ac_axe"],"HandItems":[{},{"id":"minecraft:netherite_axe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/diamond_tier - No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/diamond/axe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/diamond/hoe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/diamond/pickaxe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/diamond/shovel"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/diamond/sword"}]
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/netherite/hoe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130527,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Netherite Hoe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["hoe_netherite_tier","automaticon","ac_hoe"],"HandItems":[{},{"id":"minecraft:netherite_hoe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/wood/shovel - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130504,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Wooden Shovel Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["shovel_wood_tier","automaticon","ac_shovel"],"HandItems":[{},{"id":"minecraft:wooden_shovel","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/gold/shovel - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130514,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Shovel Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["shovel_gold_tier","automaticon","ac_shovel"],"HandItems":[{},{"id":"minecraft:golden_shovel","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/gold/hoe - Not a json array: {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":130512,"minecraft:max_stack_size":1,"minecraft:item_name":"{\"bold\":false,\"color\":\"#ffe59d\",\"italic\":false,\"text\":\"Golden Hoe Automaticon\"}","minecraft:entity_data":{"id":"minecraft:armor_stand","Small":1,"Invulnerable":1,"ShowArms":1,"Marker":1,"NoBasePlate":1,"Tags":["hoe_gold_tier","automaticon","ac_hoe"],"HandItems":[{},{"id":"minecraft:golden_hoe","count":1}]}}}
+[19:19:49] [Worker-Main-7/ERROR]: Couldn't parse element loot_tables:kattersstructures:automaticons/gold_tier - No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/gold/axe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/gold/hoe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/gold/pickaxe"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/gold/shovel"}]; No key name in MapLike[{"type":"minecraft:loot_table","value":"kattersstructures:automaticons/gold/sword"}]
+[19:19:49] [ServerMain/ERROR]: Parsing error loading recipe vu:grassblock
+com.google.gson.JsonParseException: Not a JSON object: [{"item":"minecraft:moss_carpet"},{"item":"minecraft:grass"}]; Not a JSON object: [{"item":"minecraft:moss_carpet"},{"item":"minecraft:grass"}]; No key tag in MapLike[{"item":"minecraft:grass"}]; Item must not be minecraft:air; No ingredients for shapeless recipe
+	at ac.a(SourceFile:1005) ~[server-1.20.4.jar:?]
+	at cqf.a(SourceFile:131) ~[server-1.20.4.jar:?]
+	at cqf.a(SourceFile:56) ~[server-1.20.4.jar:?]
+	at cqf.a(SourceFile:35) ~[server-1.20.4.jar:?]
+	at aqn.a(SourceFile:13) ~[server-1.20.4.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at aqo.a(SourceFile:69) ~[server-1.20.4.jar:?]
+	at ac.a(SourceFile:944) ~[server-1.20.4.jar:?]
+	at ac.c(SourceFile:932) ~[server-1.20.4.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:178) ~[server-1.20.4.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:19:49] [ServerMain/INFO]: Loaded 7 recipes
+[19:19:49] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:village_jungle: No key item in MapLike[{"id":"minecraft:cocoa_beans","count":1}]
+[19:19:49] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:village_swamp: No key item in MapLike[{"id":"minecraft:mud","count":1}]
+[19:19:50] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:village_underground: No key item in MapLike[{"id":"minecraft:stone","count":1}]
+[19:19:50] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:village_all: No key item in MapLike[{"id":"minecraft:villager_spawn_egg","components":{"minecraft:enchantments":{"minecraft:aqua_affinity":0}}}]
+[19:19:50] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:village_sky: No key item in MapLike[{"id":"minecraft:feather","count":1}]
+[19:19:50] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:village_ocean: No key item in MapLike[{"id":"minecraft:cod","count":1}]
+[19:19:50] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:a_village: No key item in MapLike[{"id":"minecraft:villager_spawn_egg","count":1}]
+[19:19:50] [ServerMain/ERROR]: Parsing error loading custom advancement kattersstructures:village_cherry: No key item in MapLike[{"id":"minecraft:pink_petals","count":1}]
+[19:19:50] [ServerMain/ERROR]: Couldn't load advancements: [wasd.crossbow:crafter_recipe, wasd.crossbow:pack, wasd.crossbow:crafter]
+[19:19:50] [ServerMain/INFO]: Loaded 1746 advancements
+[19:19:50] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: wasd.tags:air, wasd.tags:nonsolid
+[19:19:50] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[19:19:50] [Server thread/INFO]: Loading properties
+[19:19:50] [Server thread/INFO]: Default game type: SURVIVAL
+[19:19:50] [Server thread/INFO]: Generating keypair
+[19:19:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:19:51] [Server thread/INFO]: Using default channel type
+[19:19:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:19:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:19:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:19:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:19:51] [Server thread/INFO]: Preparing level "Minecrift"
+[19:19:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:19:55] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:19:55] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:19:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:19:55] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:19:55] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:19:55] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:19:55] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:19:55] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[19:19:56] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:19:56] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:19:57] [Worker-Main-7/INFO]: Preparing spawn area: 64%
+[19:19:57] [Server thread/INFO]: Time elapsed: 5169 ms
+[19:19:57] [Server thread/INFO]: Done (6.149s)! For help, type "help"
+[19:20:21] [Server thread/INFO]: Samue[/127.0.0.1:50045] logged in with entity id 63 at (-492.34331532637344, 99.0, 268.8015597579876)
+[19:20:21] [Server thread/INFO]: Samue joined the game
+[19:20:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[19:20:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[19:21:47] [Server thread/INFO]: simo[/192.168.0.13:52278] logged in with entity id 803 at (-52.607141253994136, 44.25220334025373, 49.14567944888865)
+[19:21:47] [Server thread/INFO]: simo joined the game
+[19:21:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[19:22:09] [Server thread/INFO]: [Not Secure] <Samue> is there modded arrows?
+[19:22:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2492ms or 49 ticks behind
+[19:22:15] [Server thread/INFO]: [Not Secure] <simo> not in this server no
+[19:22:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4943ms or 98 ticks behind
+[19:22:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6652ms or 133 ticks behind
+[19:23:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4624ms or 92 ticks behind
+[19:23:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7315ms or 146 ticks behind
+[19:23:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5983ms or 119 ticks behind
+[19:24:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7700ms or 154 ticks behind
+[19:24:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7426ms or 148 ticks behind
+[19:25:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6964ms or 139 ticks behind
+[19:25:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[19:25:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[19:25:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:25:58] [Server thread/INFO]: [Not Secure] <simo> no
+[19:26:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3718ms or 74 ticks behind
+[19:26:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2935ms or 58 ticks behind
+[19:26:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3228ms or 64 ticks behind
+[19:27:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7140ms or 142 ticks behind
+[19:27:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6237ms or 124 ticks behind
+[19:27:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6537ms or 130 ticks behind
+[19:27:59] [Server thread/INFO]: [Not Secure] <simo> moving on what
+[19:28:13] [Server thread/INFO]: [Not Secure] <simo> sure
+[19:28:19] [Server thread/INFO]: [Not Secure] <simo> i want more diamonds rawr
+[19:28:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8732ms or 174 ticks behind
+[19:28:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3627ms or 72 ticks behind
+[19:29:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[19:29:32] [Server thread/INFO]: simo has made the advancement [Knightly Figure]
+[19:29:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:29:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[19:30:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[19:30:29] [Server thread/INFO]: [Not Secure] <simo> huh
+[19:30:36] [Server thread/INFO]: [Not Secure] <simo> most likely lol
+[19:30:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[19:30:41] [Server thread/INFO]: [Not Secure] <simo> the ones on the hill should still be alive
+[19:30:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:31:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2224ms or 44 ticks behind
+[19:31:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[19:31:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[19:32:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[19:32:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[19:33:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2316ms or 46 ticks behind
+[19:33:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[19:33:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[19:34:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[19:34:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[19:35:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[19:35:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:35:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[19:36:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[19:36:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[19:37:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[19:37:41] [Server thread/INFO]: Villager cev['Villager'/4837, l='ServerLevel[Minecrift]', x=-483.76, y=-248.16, z=268.97] died, message: 'Villager fell out of the world'
+[19:37:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:37:57] [Server thread/INFO]: simo was blown up by Creeper
+[19:38:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[19:38:22] [Server thread/INFO]: [Samue: Applied effect Glowing to simo]
+[19:38:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:38:40] [Server thread/INFO]: Villager cev['Fisherman'/293, l='ServerLevel[Minecrift]', x=-404.45, y=82.92, z=295.37] died, message: 'Fisherman was slain by Zombie'
+[19:38:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:39:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[19:39:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[19:39:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:40:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2297ms or 45 ticks behind
+[19:40:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3268ms or 65 ticks behind
+[19:40:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4609ms or 92 ticks behind
+[19:40:56] [Server thread/INFO]: Moth[/192.168.0.20:50343] logged in with entity id 5554 at (-883.5652657996127, 77.0, -382.30000001192093)
+[19:40:56] [Server thread/INFO]: Moth joined the game
+[19:41:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9719ms or 194 ticks behind
+[19:41:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7523ms or 150 ticks behind
+[19:42:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8593ms or 171 ticks behind
+[19:42:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8549ms or 170 ticks behind
+[19:42:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10492ms or 209 ticks behind
+[19:43:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9259ms or 185 ticks behind
+[19:43:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10522ms or 210 ticks behind
+[19:44:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11630ms or 232 ticks behind
+[19:44:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14074ms or 281 ticks behind
+[19:45:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13880ms or 277 ticks behind
+[19:45:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14332ms or 286 ticks behind
+[19:46:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14981ms or 299 ticks behind
+[19:46:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14016ms or 280 ticks behind
+[19:47:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13275ms or 265 ticks behind
+[19:47:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13045ms or 260 ticks behind
+[19:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12554ms or 251 ticks behind
+[19:48:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12379ms or 247 ticks behind
+[19:48:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12065ms or 241 ticks behind
+[19:49:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12339ms or 246 ticks behind
+[19:49:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12840ms or 256 ticks behind
+[19:50:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12924ms or 258 ticks behind
+[19:50:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14533ms or 290 ticks behind
+[19:51:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14211ms or 284 ticks behind
+[19:51:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12733ms or 254 ticks behind
+[19:52:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14356ms or 287 ticks behind
+[19:52:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16519ms or 330 ticks behind
+[19:53:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14652ms or 293 ticks behind
+[19:53:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12540ms or 250 ticks behind
+[19:54:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13461ms or 269 ticks behind
+[19:54:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12125ms or 242 ticks behind
+[19:55:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12491ms or 249 ticks behind
+[19:55:24] [Server thread/INFO]: simo lost connection: Disconnected
+[19:55:24] [Server thread/INFO]: simo left the game
+[19:55:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11680ms or 233 ticks behind
+[19:55:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9782ms or 195 ticks behind
+[19:56:17] [Server thread/INFO]: simo[/192.168.0.13:52576] logged in with entity id 9290 at (-503.72565205661306, 64.0, 255.0324475389205)
+[19:56:17] [Server thread/INFO]: simo joined the game
+[19:56:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10210ms or 204 ticks behind
+[19:56:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11772ms or 235 ticks behind
+[19:57:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12257ms or 245 ticks behind
+[19:57:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14612ms or 292 ticks behind
+[19:58:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15543ms or 310 ticks behind
+[19:58:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15615ms or 312 ticks behind
+[19:59:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15322ms or 306 ticks behind
+[19:59:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19108ms or 382 ticks behind
+[20:00:20] [Server thread/INFO]: Moth has made the advancement [True Versatility]
+[20:00:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18080ms or 361 ticks behind
+[20:00:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15515ms or 310 ticks behind
+[20:01:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14064ms or 281 ticks behind
+[20:01:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15043ms or 300 ticks behind
+[20:02:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15068ms or 301 ticks behind
+[20:02:29] [Server thread/INFO]: [Not Secure] <Samue> kick Moth
+[20:02:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14208ms or 284 ticks behind
+[20:03:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10264ms or 205 ticks behind
+[20:03:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9617ms or 192 ticks behind
+[20:04:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9090ms or 181 ticks behind
+[20:04:15] [Server thread/INFO]: [Samue: Applied effect Glowing to Moth]
+[20:04:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8464ms or 169 ticks behind
+[20:04:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8502ms or 170 ticks behind
+[20:05:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5553ms or 111 ticks behind
+[20:05:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4914ms or 98 ticks behind
+[20:05:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4830ms or 96 ticks behind
+[20:06:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4979ms or 99 ticks behind
+[20:06:26] [Server thread/INFO]: [Not Secure] <simo> "second farm"
+[20:06:30] [Server thread/INFO]: [Not Secure] <simo> we dont even have a first farm
+[20:06:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4372ms or 87 ticks behind
+[20:06:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4013ms or 80 ticks behind
+[20:07:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4086ms or 81 ticks behind
+[20:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4458ms or 89 ticks behind
+[20:07:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3988ms or 79 ticks behind
+[20:08:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5306ms or 106 ticks behind
+[20:08:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4769ms or 95 ticks behind
+[20:08:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4363ms or 87 ticks behind
+[20:09:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4866ms or 97 ticks behind
+[20:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4241ms or 84 ticks behind
+[20:09:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4686ms or 93 ticks behind
+[20:10:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4725ms or 94 ticks behind
+[20:10:16] [Server thread/INFO]: [Not Secure] <simo> sam
+[20:10:24] [Server thread/INFO]: [Not Secure] <simo> areyou going to build the farm yes or no
+[20:10:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4186ms or 83 ticks behind
+[20:10:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4772ms or 95 ticks behind
+[20:10:53] [Server thread/INFO]: simo has made the advancement [A Seedy Place]
+[20:11:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4577ms or 91 ticks behind
+[20:11:07] [Server thread/INFO]: Samue has made the advancement [Certified Pirate]
+[20:11:09] [Server thread/INFO]: [Not Secure] <simo> you did more harm than good..
+[20:11:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3639ms or 72 ticks behind
+[20:11:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4998ms or 99 ticks behind
+[20:11:50] [Server thread/INFO]: [Not Secure] <simo> who has the luck of the sea rod
+[20:12:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5039ms or 100 ticks behind
+[20:12:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5099ms or 101 ticks behind
+[20:12:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5509ms or 110 ticks behind
+[20:13:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5148ms or 102 ticks behind
+[20:13:08] [Server thread/INFO]: simo lost connection: Disconnected
+[20:13:08] [Server thread/INFO]: simo left the game
+[20:13:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3755ms or 75 ticks behind
+[20:13:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2548ms or 50 ticks behind
+[20:13:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2529ms or 50 ticks behind
+[20:14:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[20:14:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[20:14:44] [Server thread/INFO]: simo[/192.168.0.13:52803] logged in with entity id 13330 at (-552.7024030431055, 62.0, 257.6368442069218)
+[20:14:44] [Server thread/INFO]: simo joined the game
+[20:14:59] [Server thread/INFO]: [Not Secure] <simo> crossbows azz
+[20:14:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4301ms or 86 ticks behind
+[20:15:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5332ms or 106 ticks behind
+[20:15:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5611ms or 112 ticks behind
+[20:15:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4296ms or 85 ticks behind
+[20:16:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5315ms or 106 ticks behind
+[20:16:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4782ms or 95 ticks behind
+[20:17:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5425ms or 108 ticks behind
+[20:17:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5878ms or 117 ticks behind
+[20:17:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4753ms or 95 ticks behind
+[20:17:45] [Server thread/INFO]: [Not Secure] <simo> infinity bow :skull:
+[20:17:51] [Server thread/INFO]: [Not Secure] <simo> yee
+[20:17:53] [Server thread/INFO]: [Not Secure] <simo> move
+[20:17:57] [Server thread/INFO]: [Not Secure] <simo> fishing
+[20:18:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4496ms or 89 ticks behind
+[20:18:00] [Server thread/INFO]: Moth has made the advancement [Quite the Samurai]
+[20:18:02] [Server thread/INFO]: [Not Secure] <simo> luck of sea 2 rod op bro
+[20:18:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4586ms or 91 ticks behind
+[20:18:26] [Server thread/INFO]: [Not Secure] <simo> how do you fix bows
+[20:18:34] [Server thread/INFO]: [Not Secure] <simo> ay
+[20:18:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5892ms or 117 ticks behind
+[20:18:43] [Server thread/INFO]: [Not Secure] <simo> sharpness
+[20:18:45] [Server thread/INFO]: [Not Secure] <simo> power
+[20:19:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5204ms or 104 ticks behind
+[20:19:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5609ms or 112 ticks behind
+[20:19:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5596ms or 111 ticks behind
+[20:20:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6771ms or 135 ticks behind
+[20:20:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7686ms or 153 ticks behind
+[20:20:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8122ms or 162 ticks behind
+[20:21:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8620ms or 172 ticks behind
+[20:21:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8633ms or 172 ticks behind
+[20:22:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8971ms or 179 ticks behind
+[20:22:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10836ms or 216 ticks behind
+[20:22:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10620ms or 212 ticks behind
+[20:23:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10906ms or 218 ticks behind
+[20:23:32] [Server thread/INFO]: [Not Secure] <simo> you can craft em
+[20:23:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8628ms or 172 ticks behind
+[20:23:47] [Server thread/INFO]: [Not Secure] <simo> im bringin two
+[20:23:52] [Server thread/INFO]: [Not Secure] <simo> and theres 2 in the creeper hole
+[20:24:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8570ms or 171 ticks behind
+[20:24:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8083ms or 161 ticks behind
+[20:24:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7534ms or 150 ticks behind
+[20:24:59] [Server thread/INFO]: simo lost connection: Disconnected
+[20:24:59] [Server thread/INFO]: simo left the game
+[20:25:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3946ms or 78 ticks behind
+[20:25:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2331ms or 46 ticks behind
+[20:25:40] [Server thread/INFO]: simo[/192.168.0.13:52946] logged in with entity id 15115 at (-529.6565638061045, 77.0, 198.30000001192093)
+[20:25:40] [Server thread/INFO]: simo joined the game
+[20:25:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3153ms or 63 ticks behind
+[20:26:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5146ms or 102 ticks behind
+[20:26:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4852ms or 97 ticks behind
+[20:26:40] [Server thread/INFO]: Samue has made the advancement [The Parrots and the Bats]
+[20:26:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4882ms or 97 ticks behind
+[20:27:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4123ms or 82 ticks behind
+[20:27:08] [Server thread/INFO]: Moth has made the advancement [The Parrots and the Bats]
+[20:27:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4395ms or 87 ticks behind
+[20:27:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5569ms or 111 ticks behind
+[20:28:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6453ms or 129 ticks behind
+[20:28:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5785ms or 115 ticks behind
+[20:28:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4800ms or 96 ticks behind
+[20:29:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4829ms or 96 ticks behind
+[20:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5493ms or 109 ticks behind
+[20:29:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5819ms or 116 ticks behind
+[20:30:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6153ms or 123 ticks behind
+[20:30:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6122ms or 122 ticks behind
+[20:30:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6649ms or 132 ticks behind
+[20:31:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7746ms or 154 ticks behind
+[20:31:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9447ms or 188 ticks behind
+[20:32:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11910ms or 238 ticks behind
+[20:32:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12436ms or 248 ticks behind
+[20:32:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11655ms or 233 ticks behind
+[20:33:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11579ms or 231 ticks behind
+[20:33:31] [Server thread/INFO]: Samue has made the advancement [True Versatility]
+[20:33:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13972ms or 279 ticks behind
+[20:34:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14472ms or 289 ticks behind
+[20:34:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13317ms or 266 ticks behind
+[20:35:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13207ms or 264 ticks behind
+[20:35:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13688ms or 273 ticks behind
+[20:36:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13635ms or 272 ticks behind
+[20:36:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12902ms or 258 ticks behind
+[20:37:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11074ms or 221 ticks behind
+[20:37:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12643ms or 252 ticks behind
+[20:38:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13522ms or 270 ticks behind
+[20:38:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12263ms or 245 ticks behind
+[20:39:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12212ms or 244 ticks behind
+[20:39:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11751ms or 235 ticks behind
+[20:39:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13571ms or 271 ticks behind
+[20:40:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14297ms or 285 ticks behind
+[20:40:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13608ms or 272 ticks behind
+[20:41:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13286ms or 265 ticks behind
+[20:41:45] [Server thread/INFO]: [Not Secure] <simo> im at the house too
+[20:41:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13285ms or 265 ticks behind
+[20:42:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12088ms or 241 ticks behind
+[20:42:21] [Server thread/INFO]: [Not Secure] <simo> ur crazy
+[20:42:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13415ms or 268 ticks behind
+[20:43:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12060ms or 241 ticks behind
+[20:43:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10571ms or 211 ticks behind
+[20:44:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14345ms or 286 ticks behind
+[20:44:18] [Server thread/INFO]: [Not Secure] <simo> wat
+[20:44:24] [Server thread/INFO]: [Not Secure] <simo> where are you
+[20:44:29] [Server thread/INFO]: [Not Secure] <simo> im LITERALLY at the house
+[20:44:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12383ms or 247 ticks behind
+[20:45:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11378ms or 227 ticks behind
+[20:45:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13250ms or 265 ticks behind
+[20:46:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14767ms or 295 ticks behind
+[20:46:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16437ms or 328 ticks behind
+[20:47:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16603ms or 332 ticks behind
+[20:47:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17661ms or 353 ticks behind
+[20:47:58] [Server thread/WARN]: simo moved too quickly! 9.51528351896761,0.9986640208878583,-3.3971021018678584
+[20:47:58] [Server thread/WARN]: simo moved too quickly! 9.577510784547396,1.4186640077748365,-3.481006583377507
+[20:48:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23193ms or 463 ticks behind
+[20:48:31] [Server thread/INFO]: Villager cev['Fisherman'/106, l='ServerLevel[Minecrift]', x=-496.30, y=66.42, z=303.70] died, message: 'Fisherman was slain by Zombie'
+[20:48:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23537ms or 470 ticks behind
+[20:49:07] [Server thread/INFO]: [Not Secure] <simo> most likely not
+[20:49:17] [Server thread/INFO]: Villager cev['Mason'/82, l='ServerLevel[Minecrift]', x=-507.37, y=64.88, z=307.34] died, message: 'Mason was slain by Zombie using [Iron Dagger]'
+[20:49:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23192ms or 463 ticks behind
+[20:49:47] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=275, y=64, z=328} hx{x=277, y=65, z=328}
+[20:49:55] [Server thread/WARN]: Moth moved too quickly! -6.761887484667625,-0.8322033533667508,-7.501853479597486
+[20:50:08] [Server thread/INFO]: Moth has made the advancement [A Seedy Place]
+[20:50:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31810ms or 636 ticks behind
+[20:51:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28817ms or 576 ticks behind
+[20:51:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30116ms or 602 ticks behind
+[20:52:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30184ms or 603 ticks behind
+[20:53:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39361ms or 787 ticks behind
+[20:53:59] [Worker-Main-3/ERROR]: Hanging entity at invalid position: hx{x=216, y=47, z=211}
+[20:54:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 40438ms or 808 ticks behind
+[20:54:26] [Server thread/INFO]: Moth lost connection: Disconnected
+[20:54:26] [Server thread/INFO]: Moth left the game
+[20:55:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23831ms or 476 ticks behind
+[20:55:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22865ms or 457 ticks behind
+[20:55:50] [Server thread/INFO]: [Not Secure] <Samue> -100 67 54
+[20:56:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22192ms or 443 ticks behind
+[20:56:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23010ms or 460 ticks behind
+[20:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22441ms or 448 ticks behind
+[20:57:48] [Server thread/INFO]: Villager cev['Villager'/23556, l='ServerLevel[Minecrift]', x=139.08, y=-7.00, z=771.81] died, message: 'Villager was shot by Pillager'
+[20:58:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19048ms or 380 ticks behind
+[20:58:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17751ms or 355 ticks behind
+[20:59:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17743ms or 354 ticks behind
+[20:59:38] [Server thread/INFO]: [Not Secure] <simo> 80 82 528
+[20:59:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20642ms or 412 ticks behind
+[21:00:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21369ms or 427 ticks behind
+[21:00:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21469ms or 429 ticks behind
+[21:01:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18504ms or 370 ticks behind
+[21:02:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15142ms or 302 ticks behind
+[21:02:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13159ms or 263 ticks behind
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.051746711077328,0.0,9.682707520737182
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.1125308260453153,0.0,10.072850513098814
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.1689502267971648,0.0,10.463942468391423
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.2194630763722785,0.0,10.855924316416093
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.2621809699999744,0.0,11.248613499761973
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.2956621437067497,0.0,11.641723951924973
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.318839621252664,0.0,12.03491328761524
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.330968979940053,0.0,12.427818475378189
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.3315758636655346,0.0,12.820080734515528
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.3204006258636696,0.0,13.211359690795945
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.297366770461906,0.0,13.601346246979176
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.262545102816887,0.0,13.989768570901646
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.216118204066163,0.0,14.376392723832225
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.1590018618568934,0.0,14.761297880470295
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.0926946305801835,0.0,15.14483135695562
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -3.019153295738363,0.0,15.496966323585411
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -2.9407068540092496,0.0,15.496966323585411
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -2.859984616186239,0.0,15.496966323585411
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -2.779850954536869,0.0,15.496966323585411
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -2.7033408310293225,0.0,15.53672429058065
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -2.633599754270847,0.0,15.612496650345037
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -2.5738059647869136,0.0,15.720581122859926
+[21:02:46] [Server thread/WARN]: Jungle Boat (vehicle of simo) moved too quickly! -2.5271056913371694,0.0,15.857219423381991
+[21:03:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16029ms or 320 ticks behind
+[21:03:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14142ms or 282 ticks behind
+[21:04:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16094ms or 321 ticks behind
+[21:04:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13867ms or 277 ticks behind
+[21:04:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13647ms or 272 ticks behind
+[21:05:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13429ms or 268 ticks behind
+[21:05:44] [Server thread/INFO]: [Not Secure] <simo> lure 3 fishing rod
+[21:05:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12746ms or 254 ticks behind
+[21:06:02] [Server thread/INFO]: [Not Secure] <simo> i can fuse the two fishing rods looool
+[21:06:04] [Server thread/INFO]: [Not Secure] <simo> im so tempted
+[21:06:12] [Server thread/INFO]: [Not Secure] <simo> bet
+[21:06:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12327ms or 246 ticks behind
+[21:06:24] [Server thread/INFO]: [Not Secure] <simo> i cant tell if youre joking looool
+[21:06:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12781ms or 255 ticks behind
+[21:07:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12341ms or 246 ticks behind
+[21:07:21] [Server thread/INFO]: [Not Secure] <simo> we gotta hike
+[21:07:26] [Server thread/INFO]: [Not Secure] <simo> we need striders
+[21:07:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12984ms or 259 ticks behind
+[21:08:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14354ms or 287 ticks behind
+[21:08:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15168ms or 303 ticks behind
+[21:09:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15174ms or 303 ticks behind
+[21:09:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15044ms or 300 ticks behind
+[21:10:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16154ms or 323 ticks behind
+[21:10:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16635ms or 332 ticks behind
+[21:11:16] [Server thread/INFO]: [Not Secure] <simo> creeper nearly blow me up
+[21:11:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16350ms or 327 ticks behind
+[21:11:34] [Server thread/INFO]: [Not Secure] <simo> but i found something nice
+[21:11:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17019ms or 340 ticks behind
+[21:11:55] [Server thread/INFO]: [Not Secure] <simo> two diamonds
+[21:11:58] [Server thread/INFO]: [Not Secure] <simo> i want apickaxe
+[21:12:04] [Server thread/INFO]: [Not Secure] <simo> underground
+[21:12:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15766ms or 315 ticks behind
+[21:12:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17107ms or 342 ticks behind
+[21:13:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15537ms or 310 ticks behind
+[21:13:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16746ms or 334 ticks behind
+[21:14:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14741ms or 294 ticks behind
+[21:14:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13790ms or 275 ticks behind
+[21:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16508ms or 330 ticks behind
+[21:15:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16175ms or 323 ticks behind
+[21:16:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14801ms or 296 ticks behind
+[21:16:29] [Server thread/INFO]: [Not Secure] <simo> you can dive off
+[21:16:35] [Server thread/INFO]: [Not Secure] <simo> it doesnt break it one block deep i think
+[21:16:47] [Server thread/INFO]: [Not Secure] <simo> imagine you died...
+[21:16:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14962ms or 299 ticks behind
+[21:17:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16035ms or 320 ticks behind
+[21:17:46] [Server thread/INFO]: [Not Secure] <simo> found 7 diamonds
+[21:17:49] [Server thread/INFO]: [Not Secure] <simo> im making a pick
+[21:17:54] [Server thread/INFO]: [Not Secure] <simo> undergorund
+[21:17:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13812ms or 276 ticks behind
+[21:18:07] [Server thread/INFO]: [Not Secure] <simo> i like it :(
+[21:18:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12448ms or 248 ticks behind
+[21:18:48] [Server thread/WARN]: Samue moved wrongly!
+[21:18:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13606ms or 272 ticks behind
+[21:19:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11645ms or 232 ticks behind
+[21:19:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10972ms or 219 ticks behind
+[21:19:45] [Server thread/INFO]: [Samue: Applied effect Fire Resistance to Samue]
+[21:20:04] [Server thread/INFO]: [Not Secure] <simo> unbreaking first or efficiency
+[21:20:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13123ms or 262 ticks behind
+[21:20:20] [Server thread/INFO]: [Not Secure] <simo> okay
+[21:20:35] [Server thread/INFO]: [Not Secure] <simo> what does riptide do
+[21:20:39] [Server thread/INFO]: [Not Secure] <simo> trident flying in rain?
+[21:20:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14744ms or 294 ticks behind
+[21:20:46] [Server thread/INFO]: Moth[/192.168.0.20:50819] logged in with entity id 34013 at (-388.8322879793864, 66.5625, 214.01644127258527)
+[21:20:46] [Server thread/INFO]: Moth joined the game
+[21:20:47] [Server thread/INFO]: [Not Secure] <simo> mmmm
+[21:20:59] [Server thread/INFO]: [Not Secure] <simo> im considering using seths super book on a pick
+[21:21:05] [Server thread/INFO]: [Not Secure] <simo> it has efficiency and unbreaking
+[21:21:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18299ms or 365 ticks behind
+[21:21:31] [Server thread/INFO]: [Not Secure] <simo> riptide
+[21:21:46] [Server thread/INFO]: [Not Secure] <simo> efficiency 4...
+[21:21:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16640ms or 332 ticks behind
+[21:21:49] [Server thread/INFO]: [Not Secure] <simo> unbreaking 3
+[21:21:51] [Server thread/INFO]: [Not Secure] <simo> ...
+[21:22:02] [Server thread/INFO]: [Not Secure] <simo> this si gonna cost all my levels
+[21:22:07] [Server thread/INFO]: [Not Secure] <simo> say goodbye to the anvil
+[21:22:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15351ms or 307 ticks behind
+[21:22:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14808ms or 296 ticks behind
+[21:23:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14386ms or 287 ticks behind
+[21:23:20] [Server thread/INFO]: [Not Secure] <simo> better to do it together
+[21:23:29] [Server thread/INFO]: [Not Secure] <simo> also remember its 1 to 8 blocks
+[21:23:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15450ms or 309 ticks behind
+[21:23:58] [Server thread/INFO]: [Not Secure] <simo> "only' :skull:
+[21:24:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15377ms or 307 ticks behind
+[21:24:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17944ms or 358 ticks behind
+[21:25:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19187ms or 383 ticks behind
+[21:25:34] [Server thread/INFO]: [Not Secure] <simo> huh
+[21:25:40] [Server thread/INFO]: Villager cev['Toolsmith'/28075, l='ServerLevel[Minecrift]', x=-390.40, y=64.00, z=277.75] died, message: 'Toolsmith was slain by Zombie'
+[21:25:55] [Server thread/INFO]: [Not Secure] <simo> kay
+[21:26:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19797ms or 395 ticks behind
+[21:26:11] [Server thread/INFO]: [Not Secure] <simo> i want xp tho
+[21:26:22] [Server thread/INFO]: simo has made the advancement [The Parrots and the Bats]
+[21:26:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17085ms or 341 ticks behind
+[21:26:50] [Server thread/INFO]: [Not Secure] <simo> huh
+[21:27:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19042ms or 380 ticks behind
+[21:27:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21615ms or 432 ticks behind
+[21:28:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20658ms or 413 ticks behind
+[21:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16905ms or 338 ticks behind
+[21:29:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16488ms or 329 ticks behind
+[21:29:40] [Server thread/INFO]: [Not Secure] <simo> you broke the pether nortal
+[21:29:46] [Server thread/INFO]: [Not Secure] <simo> wheres the new one
+[21:29:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17889ms or 357 ticks behind
+[21:30:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18470ms or 369 ticks behind
+[21:31:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19542ms or 390 ticks behind
+[21:31:16] [Server thread/INFO]: Moth lost connection: Disconnected
+[21:31:16] [Server thread/INFO]: Moth left the game
+[21:31:27] [Server thread/INFO]: [Not Secure] <simo> why leave
+[21:31:33] [Server thread/INFO]: Moth[/192.168.0.20:50919] logged in with entity id 36161 at (-522.7531609039999, 63.0, 314.5447207329701)
+[21:31:33] [Server thread/INFO]: Moth joined the game
+[21:31:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16967ms or 339 ticks behind
+[21:31:42] [Server thread/WARN]: simo moved too quickly! 2.8252024561328426,-10.598676931885251,0.1250880293959824
+[21:32:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19894ms or 397 ticks behind
+[21:32:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17078ms or 341 ticks behind
+[21:33:07] [Server thread/INFO]: [Samue: Applied effect Night Vision to Samue]
+[21:33:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19138ms or 382 ticks behind
+[21:33:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18721ms or 374 ticks behind
+[21:33:50] [Server thread/INFO]: [Not Secure] <Moth> -500 263
+[21:34:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17660ms or 353 ticks behind
+[21:34:34] [Server thread/INFO]: [Not Secure] <simo> hteres clay eve4rywhe
+[21:34:42] [Server thread/INFO]: [Not Secure] <simo> skibidi toilet
+[21:34:48] [Server thread/INFO]: [Not Secure] <simo> the rivver beside the house is full of clay
+[21:34:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18707ms or 374 ticks behind
+[21:35:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19950ms or 399 ticks behind
+[21:35:34] [Server thread/INFO]: [Not Secure] <simo> bromoment
+[21:35:38] [Server thread/INFO]: [Not Secure] <simo> give back the portal
+[21:35:49] [Server thread/INFO]: [Not Secure] <Samue> 82 -45 2440
+[21:36:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20142ms or 402 ticks behind
+[21:36:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20743ms or 414 ticks behind
+[21:36:42] [Server thread/INFO]: Moth lost connection: Disconnected
+[21:36:42] [Server thread/INFO]: Moth left the game
+[21:37:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17735ms or 354 ticks behind
+[21:37:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16741ms or 334 ticks behind
+[21:37:59] [Server thread/INFO]: Moth[/192.168.0.20:50971] logged in with entity id 38658 at (-573.4976270192876, 63.0, 209.3883059064076)
+[21:37:59] [Server thread/INFO]: Moth joined the game
+[21:38:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18981ms or 379 ticks behind
+[21:38:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22077ms or 441 ticks behind
+[21:39:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22297ms or 445 ticks behind
+[21:40:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20809ms or 416 ticks behind
+[21:40:10] [Server thread/INFO]: Moth has made the advancement [Fishy Business]
+[21:40:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19554ms or 391 ticks behind
+[21:41:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21199ms or 423 ticks behind
+[21:41:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21862ms or 437 ticks behind
+[21:42:13] [Server thread/INFO]: [Not Secure] <Samue> t
+[21:42:31] [Server thread/INFO]: [Not Secure] <Samue> \tp Samue Moth
+[21:42:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21538ms or 430 ticks behind
+[21:43:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24212ms or 484 ticks behind
+[21:43:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24196ms or 483 ticks behind
+[21:44:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20594ms or 411 ticks behind
+[21:45:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20090ms or 401 ticks behind
+[21:45:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23818ms or 476 ticks behind
+[21:46:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23159ms or 463 ticks behind
+[21:46:29] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[21:46:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22645ms or 452 ticks behind
+[21:47:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21398ms or 427 ticks behind
+[21:48:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22826ms or 456 ticks behind
+[21:48:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23209ms or 464 ticks behind
+[21:49:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23249ms or 464 ticks behind
+[21:50:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22173ms or 443 ticks behind
+[21:50:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23147ms or 462 ticks behind
+[21:51:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22655ms or 453 ticks behind
+[21:51:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23478ms or 469 ticks behind
+[21:52:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22531ms or 450 ticks behind
+[21:53:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23309ms or 466 ticks behind
+[21:53:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24208ms or 484 ticks behind
+[21:54:00] [Server thread/INFO]: Moth was slain by Vindicator
+[21:54:15] [Server thread/INFO]: [Not Secure] <simo> theyre like brutes
+[21:54:21] [Server thread/INFO]: [Not Secure] <simo> yes.
+[21:54:24] [Server thread/INFO]: [Not Secure] <simo> theyre like brutes.
+[21:54:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22206ms or 444 ticks behind
+[21:55:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18035ms or 360 ticks behind
+[21:55:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18396ms or 367 ticks behind
+[21:55:45] [Server thread/INFO]: [Samue: Applied effect Glowing to Moth]
+[21:56:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18918ms or 378 ticks behind
+[21:56:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20827ms or 416 ticks behind
+[21:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28303ms or 566 ticks behind
+[21:58:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25846ms or 516 ticks behind
+[21:58:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25923ms or 518 ticks behind
+[21:59:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28071ms or 561 ticks behind
+[21:59:38] [Server thread/INFO]: Samue has made the advancement [Safe Haven]
+[22:00:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26028ms or 520 ticks behind
+[22:00:26] [Server thread/INFO]: Samue has made the advancement [Call For Adventure]
+[22:00:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25350ms or 507 ticks behind
+[22:01:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25235ms or 504 ticks behind
+[22:02:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23599ms or 471 ticks behind
+[22:02:19] [Server thread/INFO]: [Not Secure] <simo> yes
+[22:02:22] [Server thread/INFO]: [Not Secure] <simo> u got ur stuff big dadyd
+[22:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25915ms or 518 ticks behind
+[22:02:57] [Server thread/INFO]: [Not Secure] <simo> why is ther so much lag
+[22:03:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30905ms or 618 ticks behind
+[22:04:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27629ms or 552 ticks behind
+[22:05:05] [Server thread/INFO]: [Not Secure] <simo> i dont think theres a range
+[22:05:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26669ms or 533 ticks behind
+[22:05:11] [Server thread/INFO]: [Not Secure] <simo> just for long ur in render
+[22:05:26] [Server thread/INFO]: [Not Secure] <simo> photnoms lol
+[22:05:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27266ms or 545 ticks behind
+[22:06:07] [Server thread/INFO]: [Not Secure] <simo> its just world gen bro.
+[22:06:13] [Server thread/INFO]: [Not Secure] <simo> terralith
+[22:06:16] [Server thread/INFO]: [Not Secure] <simo> cry about it
+[22:06:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23605ms or 472 ticks behind
+[22:07:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25368ms or 507 ticks behind
+[22:07:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26048ms or 520 ticks behind
+[22:08:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17395ms or 347 ticks behind
+[22:08:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18592ms or 371 ticks behind
+[22:09:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22347ms or 446 ticks behind
+[22:09:50] [Server thread/INFO]: Villager cev['Villager'/53527, l='ServerLevel[Minecrift]', x=142.70, y=-7.00, z=763.30] died, message: 'Villager was shot by Pillager'
+[22:09:51] [Server thread/INFO]: [Not Secure] <simo> the blackstone island plus the mangrove village in the water
+[22:09:56] [Server thread/INFO]: [Not Secure] <simo> i know exactly where u are
+[22:10:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27699ms or 553 ticks behind
+[22:10:21] [Server thread/INFO]: Villager cev['Villager'/53658, l='ServerLevel[Minecrift]', x=112.17, y=-3.00, z=775.53] died, message: 'Villager was slain by Vindicator'
+[22:11:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31058ms or 621 ticks behind
+[22:11:11] [Server thread/INFO]: simo has made the advancement [Hot Stuff]
+[22:11:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36025ms or 720 ticks behind
+[22:12:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 37772ms or 755 ticks behind
+[22:12:50] [Server thread/INFO]: [Not Secure] <simo> full diamond skull
+[22:13:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38280ms or 765 ticks behind
+[22:14:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30628ms or 612 ticks behind
+[22:15:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28269ms or 565 ticks behind
+[22:15:14] [Server thread/INFO]: [Not Secure] <simo> why so much lag
+[22:15:21] [Server thread/INFO]: [Not Secure] <simo> it wasnt this bag last time
+[22:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22886ms or 457 ticks behind
+[22:16:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17742ms or 354 ticks behind
+[22:16:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18435ms or 368 ticks behind
+[22:17:00] [Server thread/INFO]: [Samue: Teleported Samue to Moth]
+[22:17:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16387ms or 327 ticks behind
+[22:17:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14141ms or 282 ticks behind
+[22:18:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12323ms or 246 ticks behind
+[22:18:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11485ms or 229 ticks behind
+[22:18:54] [Server thread/INFO]: [Not Secure] <simo> calm down
+[22:19:06] [Server thread/INFO]: [Not Secure] <simo> smh
+[22:19:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11750ms or 235 ticks behind
+[22:19:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11676ms or 233 ticks behind
+[22:20:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11971ms or 239 ticks behind
+[22:20:09] [Server thread/INFO]: [Not Secure] <simo> huh
+[22:20:16] [Server thread/INFO]: [Not Secure] <simo> the chests dont make sense :(
+[22:20:17] [Server thread/INFO]: [Not Secure] <simo> WHAT
+[22:20:20] [Server thread/INFO]: [Not Secure] <simo> that was not me
+[22:20:30] [Server thread/INFO]: [Not Secure] <simo> how :sob:
+[22:20:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12546ms or 250 ticks behind
+[22:20:35] [Server thread/INFO]: [Not Secure] <simo> liar
+[22:21:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12760ms or 255 ticks behind
+[22:21:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13725ms or 274 ticks behind
+[22:21:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14948ms or 298 ticks behind
+[22:22:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13736ms or 274 ticks behind
+[22:22:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14776ms or 295 ticks behind
+[22:23:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14687ms or 293 ticks behind
+[22:23:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12071ms or 241 ticks behind
+[22:24:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12271ms or 245 ticks behind
+[22:24:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14771ms or 295 ticks behind
+[22:25:01] [Server thread/INFO]: [Not Secure] <simo> wheres the pether nortal
+[22:25:13] [Server thread/INFO]: [Not Secure] <simo> its okay seth
+[22:25:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13042ms or 260 ticks behind
+[22:25:32] [Server thread/INFO]: [Not Secure] <simo> i spent the last 30 minutes making an infinite lava pool so i can make my own portak
+[22:25:42] [Server thread/INFO]: [Not Secure] <simo> screw you sam!!
+[22:25:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12138ms or 242 ticks behind
+[22:26:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12182ms or 243 ticks behind
+[22:26:38] [Server thread/INFO]: [Not Secure] <simo> i need 1 more lava
+[22:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11707ms or 234 ticks behind
+[22:27:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12411ms or 248 ticks behind
+[22:27:33] [Server thread/INFO]: [Not Secure] <simo> i need more :(
+[22:27:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12128ms or 242 ticks behind
+[22:27:53] [Server thread/INFO]: simo lost connection: Disconnected
+[22:27:53] [Server thread/INFO]: simo left the game
+[22:28:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10535ms or 210 ticks behind
+[22:28:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10591ms or 211 ticks behind
+[22:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10108ms or 202 ticks behind
+[22:29:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9830ms or 196 ticks behind
+[22:29:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10029ms or 200 ticks behind
+[22:30:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10321ms or 206 ticks behind
+[22:30:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8888ms or 177 ticks behind
+[22:30:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8834ms or 176 ticks behind
+[22:30:59] [Server thread/INFO]: Moth has made the advancement [Certified Pirate]
+[22:31:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7899ms or 157 ticks behind
+[22:31:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8931ms or 178 ticks behind
+[22:32:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8474ms or 169 ticks behind
+[22:32:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8766ms or 175 ticks behind
+[22:32:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8610ms or 172 ticks behind
+[22:33:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8980ms or 179 ticks behind
+[22:33:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9249ms or 184 ticks behind
+[22:34:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9231ms or 184 ticks behind
+[22:34:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9102ms or 182 ticks behind
+[22:34:31] [Server thread/INFO]: Moth lost connection: Disconnected
+[22:34:31] [Server thread/INFO]: Moth left the game
+[22:34:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6712ms or 134 ticks behind
+[22:35:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6473ms or 129 ticks behind
+[22:35:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5981ms or 119 ticks behind
+[22:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6158ms or 123 ticks behind
+[22:36:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6755ms or 135 ticks behind
+[22:36:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6587ms or 131 ticks behind
+[22:36:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5686ms or 113 ticks behind
+[22:37:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5984ms or 119 ticks behind
+[22:37:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6548ms or 130 ticks behind
+[22:38:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6407ms or 128 ticks behind
+[22:38:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5928ms or 118 ticks behind
+[22:38:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6180ms or 123 ticks behind
+[22:39:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5811ms or 116 ticks behind
+[22:39:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6202ms or 124 ticks behind
+[22:39:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5784ms or 115 ticks behind
+[22:40:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6022ms or 120 ticks behind
+[22:40:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5252ms or 105 ticks behind
+[22:40:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6236ms or 124 ticks behind
+[22:41:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6132ms or 122 ticks behind
+[22:41:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6629ms or 132 ticks behind
+[22:41:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6975ms or 139 ticks behind
+[22:42:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7186ms or 143 ticks behind
+[22:42:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6767ms or 135 ticks behind
+[22:42:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6704ms or 134 ticks behind
+[22:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7116ms or 142 ticks behind
+[22:43:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7446ms or 148 ticks behind
+[22:44:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7660ms or 153 ticks behind
+[22:44:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6432ms or 128 ticks behind
+[22:44:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6403ms or 128 ticks behind
+[22:45:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7200ms or 144 ticks behind
+[22:45:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7470ms or 149 ticks behind
+[22:45:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6801ms or 136 ticks behind
+[22:46:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6561ms or 131 ticks behind
+[22:46:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6291ms or 125 ticks behind
+[22:47:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8132ms or 162 ticks behind
+[22:47:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7956ms or 159 ticks behind
+[22:47:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5741ms or 114 ticks behind
+[22:48:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6461ms or 129 ticks behind
+[22:48:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6704ms or 134 ticks behind
+[22:48:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7243ms or 144 ticks behind
+[22:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7093ms or 141 ticks behind
+[22:49:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6762ms or 135 ticks behind
+[22:49:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7091ms or 141 ticks behind
+[22:50:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6329ms or 126 ticks behind
+[22:50:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6585ms or 131 ticks behind
+[22:50:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6614ms or 132 ticks behind
+[22:51:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6180ms or 123 ticks behind
+[22:51:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7014ms or 140 ticks behind
+[22:52:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7083ms or 141 ticks behind
+[22:52:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6115ms or 122 ticks behind
+[22:52:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6404ms or 128 ticks behind
+[22:53:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6060ms or 121 ticks behind
+[22:53:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5850ms or 117 ticks behind
+[22:53:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6941ms or 138 ticks behind
+[22:54:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6852ms or 137 ticks behind
+[22:54:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7285ms or 145 ticks behind
+[22:54:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6944ms or 138 ticks behind
+[22:55:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6981ms or 139 ticks behind
+[22:55:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7157ms or 143 ticks behind
+[22:56:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6716ms or 134 ticks behind
+[22:56:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6644ms or 132 ticks behind
+[22:56:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6849ms or 136 ticks behind
+[22:57:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6303ms or 126 ticks behind
+[22:57:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5986ms or 119 ticks behind
+[22:57:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6449ms or 128 ticks behind
+[22:58:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6935ms or 138 ticks behind
+[22:58:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6712ms or 134 ticks behind
+[22:58:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6927ms or 138 ticks behind
+[22:59:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6546ms or 130 ticks behind
+[22:59:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6806ms or 136 ticks behind
+[22:59:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6212ms or 124 ticks behind
+[23:00:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6363ms or 127 ticks behind
+[23:00:37] [Server thread/INFO]: Samue lost connection: Disconnected
+[23:00:37] [Server thread/INFO]: Samue left the game
+[23:00:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2632ms or 52 ticks behind
+[23:00:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[23:00:48] [Server thread/INFO]: STOP<--[HERE]
+[23:00:53] [Server thread/INFO]: Stopping the server
+[23:00:53] [Server thread/INFO]: Stopping server
+[23:00:53] [Server thread/INFO]: Saving players
+[23:00:53] [Server thread/INFO]: Saving worlds
+[23:00:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:overworld
+[23:00:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:the_nether
+[23:00:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:the_end
+[23:00:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (Minecrift): All chunks are saved
+[23:00:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:00:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
