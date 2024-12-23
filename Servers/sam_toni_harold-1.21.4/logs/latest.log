@@ -1,0 +1,196 @@
+[20:55:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:55:53] [ServerMain/INFO]: Loaded 1370 recipes
+[20:55:53] [ServerMain/INFO]: Loaded 1481 advancements
+[20:55:53] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[20:55:53] [Server thread/INFO]: Loading properties
+[20:55:53] [Server thread/INFO]: Default game type: SURVIVAL
+[20:55:53] [Server thread/INFO]: Generating keypair
+[20:55:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:55:53] [Server thread/INFO]: Using epoll channel type
+[20:55:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:55:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:55:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:55:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:55:53] [Server thread/INFO]: Preparing level "Minecrift"
+[20:55:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:55:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:55:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:55:54] [Server thread/INFO]: Time elapsed: 902 ms
+[20:55:54] [Server thread/INFO]: Done (1.041s)! For help, type "help"
+[20:56:08] [Server thread/INFO]: Samuel[/72.252.174.215:53150] logged in with entity id 13 at (34.84621925960293, 63.0, 205.25441427245516)
+[20:56:08] [Server thread/INFO]: Samuel joined the game
+[20:58:19] [Server thread/INFO]: [Samuel: Gave 80 [Emerald] to Samuel]
+[20:59:04] [Server thread/INFO]: Apache[/63.143.124.150:65006] logged in with entity id 896 at (-169.36742056811858, -59.0, 272.59955398731216)
+[20:59:04] [Server thread/INFO]: Apache joined the game
+[20:59:13] [Server thread/INFO]: [Samuel: Gave 6 [Bookshelf] to Samuel]
+[21:00:03] [Server thread/INFO]: [Samuel: Set 46 experience levels on Samuel]
+[21:00:11] [Server thread/INFO]: MelAntoni[/63.143.124.150:54328] logged in with entity id 1303 at (-6.699999988079071, 61.63717481234636, 302.91316938164545)
+[21:00:11] [Server thread/INFO]: MelAntoni joined the game
+[21:00:58] [Server thread/INFO]: MelAntoni lost connection: Disconnected
+[21:00:58] [Server thread/INFO]: MelAntoni left the game
+[21:01:04] [Server thread/INFO]: Samuel lost connection: Disconnected
+[21:01:04] [Server thread/INFO]: Samuel left the game
+[21:02:48] [Server thread/INFO]: Apache was shot by Skeleton
+[21:03:40] [Server thread/INFO]: Apache lost connection: You logged in from another location
+[21:03:40] [Server thread/INFO]: Apache left the game
+[21:03:40] [Server thread/WARN]: handleDisconnection() called twice
+[21:03:40] [Server thread/INFO]: Apache[/63.143.124.150:65050] logged in with entity id 2608 at (-26.421314287808514, 61.431631813633686, 214.06650240632783)
+[21:03:40] [Server thread/INFO]: Apache joined the game
+[21:04:53] [Server thread/INFO]: Apache lost connection: You logged in from another location
+[21:04:53] [Server thread/INFO]: Apache left the game
+[21:04:54] [Server thread/INFO]: Apache[/63.143.124.150:65076] logged in with entity id 3489 at (-140.1332284072759, 62.0, 259.96384155754475)
+[21:04:54] [Server thread/INFO]: Apache joined the game
+[21:06:54] [Server thread/INFO]: Apache lost connection: Timed out
+[21:06:54] [Server thread/INFO]: Apache left the game
+[21:07:19] [Server thread/INFO]: Apache[/63.143.124.150:65091] logged in with entity id 4501 at (68.64238007937836, 63.0, 205.67050917364065)
+[21:07:19] [Server thread/INFO]: Apache joined the game
+[21:14:00] [Server thread/INFO]: Samuel[/72.252.174.215:54491] logged in with entity id 5946 at (65.373335682752, 63.0, 188.12584245751262)
+[21:14:00] [Server thread/INFO]: Samuel joined the game
+[21:16:46] [Server thread/INFO]: [Samuel: Gave 40 [Block of Iron] to Samuel]
+[21:20:54] [Server thread/INFO]: Disconnecting CHllDPREDATOR49 (/73.185.4.252:65262): You are not white-listed on this server!
+[21:20:54] [Server thread/INFO]: CHllDPREDATOR49 (/73.185.4.252:65262) lost connection: You are not white-listed on this server!
+[21:20:54] [Server thread/WARN]: handleDisconnection() called twice
+[21:20:54] [Server thread/INFO]: [Samuel: Gave 25 [Block of Gold] to Samuel]
+[21:28:36] [Server thread/INFO]: [Not Secure] <Samuel> i forgot i have 50 emrads
+[21:28:47] [Server thread/INFO]: [Not Secure] <Apache> Get me a mending book too
+[21:29:08] [Server thread/INFO]: [Not Secure] <Apache> and gimme 3 diamonds
+[21:32:15] [Server thread/INFO]: [Samuel: Applied effect Glowing to 2 targets]
+[21:32:26] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 2 targets]
+[21:32:33] [Server thread/INFO]: Apache has made the advancement [We Need to Go Deeper]
+[21:34:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=30, y=57, z=58} ji{x=29, y=58, z=54}
+[21:36:14] [Server thread/INFO]: Samuel has made the advancement [Who is Cutting Onions?]
+[21:37:29] [Server thread/INFO]: MelAntoni[/63.143.124.150:54386] logged in with entity id 11297 at (29.212195962651904, 62.9375, 221.2900784904238)
+[21:37:29] [Server thread/INFO]: MelAntoni joined the game
+[21:38:12] [Server thread/INFO]: [Not Secure] <Apache> I have no food
+[21:39:17] [Server thread/INFO]: Locating element minecraft:fortress took 0 ms
+[21:39:58] [Server thread/INFO]: [Not Secure] <Samuel> FORTRESS
+[21:40:06] [Server thread/INFO]: Apache was slain by Piglin
+[21:40:19] [Server thread/INFO]: Locating element minecraft:fortress took 0 ms
+[21:40:34] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[21:40:44] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[21:41:19] [Server thread/INFO]: Samuel was slain by Piglin
+[21:41:49] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[21:41:53] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[21:42:12] [Server thread/INFO]: [Not Secure] <Samuel> fortress across the lava sea
+[21:44:43] [Server thread/INFO]: Locating element minecraft:fortress took 0 ms
+[21:45:50] [Server thread/INFO]: Apache lost connection: Disconnected
+[21:45:50] [Server thread/INFO]: Apache left the game
+[21:46:13] [Server thread/INFO]: [Not Secure] <MelAntoni> howie said tp him as soon as he rejins cause he's in lava lol
+[21:47:18] [Server thread/INFO]: Samuel has made the advancement [A Terrible Fortress]
+[21:47:30] [Server thread/INFO]: [Not Secure] <Samuel> cover me sister brother
+[21:47:46] [Server thread/INFO]: MelAntoni has made the advancement [A Terrible Fortress]
+[21:47:52] [Server thread/INFO]: [Not Secure] <MelAntoni> i'm here
+[21:48:07] [Server thread/INFO]: [Not Secure] <MelAntoni> answer the phone
+[21:48:28] [Server thread/INFO]: [Not Secure] <Samuel> no ring
+[21:48:36] [Server thread/INFO]: [Not Secure] <MelAntoni> blaxe ahead
+[21:49:27] [Server thread/INFO]: [Not Secure] <MelAntoni> answer phone
+[21:49:32] [Server thread/INFO]: [Not Secure] <MelAntoni> howie calling
+[21:50:13] [Server thread/INFO]: [Not Secure] <Samuel> list
+[21:50:47] [Server thread/INFO]: Apache[/63.143.124.150:65250] logged in with entity id 14217 at (138.69999998807907, 27.801804882446174, 14.806955278948553)
+[21:50:47] [Server thread/INFO]: Apache joined the game
+[21:50:49] [Server thread/INFO]: [Samuel: Teleported Apache to Samuel]
+[21:50:49] [Server thread/INFO]: Apache has made the advancement [A Terrible Fortress]
+[21:50:52] [Server thread/INFO]: Apache burned to death
+[21:51:57] [Server thread/INFO]: [Samuel: Teleported Apache to Samuel]
+[21:52:00] [Server thread/INFO]: Apache fell from a high place
+[21:52:29] [Server thread/INFO]: [Samuel: Teleported Apache to Samuel]
+[21:52:31] [Server thread/INFO]: Apache fell from a high place
+[21:53:09] [Server thread/INFO]: [Samuel: Teleported Apache to Samuel]
+[21:54:19] [Server thread/INFO]: Samuel has made the advancement [Into Fire]
+[21:54:21] [Server thread/INFO]: MelAntoni has made the advancement [Into Fire]
+[21:55:33] [Server thread/INFO]: Apache has made the advancement [Into Fire]
+[21:57:08] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[21:57:14] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[22:00:41] [Server thread/INFO]: MelAntoni was slain by Blaze
+[22:00:47] [Server thread/INFO]: Apache burned to death
+[22:01:01] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[22:01:05] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[22:01:09] [Server thread/INFO]: [Samuel: Teleported Apache to Samuel]
+[22:01:19] [Server thread/INFO]: [Samuel: Teleported MelAntoni to Samuel]
+[22:02:38] [Server thread/INFO]: Apache was doomed to fall
+[22:03:12] [Server thread/INFO]: [Samuel: Teleported Apache to Samuel]
+[22:03:15] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[22:03:19] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[22:06:08] [Server thread/INFO]: Apache fell from a high place
+[22:06:36] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[22:06:38] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[22:06:41] [Server thread/INFO]: [Samuel: Teleported MelAntoni to Samuel]
+[22:06:47] [Server thread/INFO]: [Samuel: Teleported Apache to Samuel]
+[22:07:43] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=345, y=79, z=91} ji{x=345, y=78, z=91}
+[22:07:58] [Server thread/INFO]: MelAntoni was slain by Samuel
+[22:10:48] [Server thread/INFO]: [Samuel: Teleported MelAntoni to Samuel]
+[22:11:18] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[22:13:26] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[22:13:30] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[22:16:12] [Server thread/INFO]: Apache went up in flames
+[22:16:16] [Server thread/INFO]: MelAntoni lost connection: Timed out
+[22:16:16] [Server thread/INFO]: MelAntoni left the game
+[22:16:19] [Server thread/INFO]: Apache lost connection: Timed out
+[22:16:19] [Server thread/INFO]: Apache left the game
+[22:16:26] [Server thread/INFO]: Apache[/63.143.124.150:65298] logged in with entity id 22274 at (381.30000001192093, 71.0, 149.69999998807907)
+[22:16:26] [Server thread/INFO]: Apache joined the game
+[22:16:29] [Server thread/INFO]: MelAntoni[/63.143.124.150:54454] logged in with entity id 22278 at (377.68091199784, 69.0, 147.58014999657365)
+[22:16:29] [Server thread/INFO]: MelAntoni joined the game
+[22:17:28] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=562, y=42, z=-8} ji{x=562, y=41, z=-7}
+[22:18:43] [Server thread/INFO]: [Samuel: Teleported Apache to MelAntoni]
+[22:19:07] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:19:58] [Server thread/INFO]: [Samuel: Set own game mode to Creative Mode]
+[22:20:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2343ms or 46 ticks behind
+[22:21:50] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:21:56] [Server thread/INFO]: [Samuel: Set own game mode to Creative Mode]
+[22:22:13] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:22:46] [Server thread/INFO]: [Samuel: Set own game mode to Creative Mode]
+[22:23:22] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:23:40] [Server thread/INFO]: [Samuel: Set own game mode to Creative Mode]
+[22:24:03] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:25:15] [Server thread/INFO]: Samuel has completed the challenge [Hot Tourist Destinations]
+[22:25:54] [Server thread/INFO]: Apache burned to death
+[22:26:00] [Server thread/WARN]: Samuel moved too quickly! -1.172489466011939,-0.1966770586154496,9.974149701750434
+[22:26:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3560ms or 71 ticks behind
+[22:26:27] [Server thread/INFO]: Apache was killed
+[22:26:27] [Server thread/INFO]: [Samuel: Killed Apache]
+[22:26:37] [Server thread/INFO]: [Samuel: Teleported Apache to MelAntoni]
+[22:27:35] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 9861 ms
+[22:27:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9855ms or 197 ticks behind
+[22:27:35] [Server thread/INFO]: [Samuel: Set own game mode to Creative Mode]
+[22:27:54] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:29:41] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 3 targets]
+[22:29:48] [Server thread/INFO]: [Samuel: Applied effect Glowing to 3 targets]
+[22:30:10] [Server thread/INFO]: [Samuel: Set own game mode to Creative Mode]
+[22:31:45] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:32:09] [Server thread/INFO]: [Samuel: Set own game mode to Creative Mode]
+[22:32:35] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:34:32] [Server thread/INFO]: [Samuel: Set own game mode to Survival Mode]
+[22:34:34] [Server thread/INFO]: Samuel was doomed to fall
+[22:35:15] [Server thread/INFO]: MelAntoni tried to swim in lava
+[22:35:15] [Server thread/INFO]: Apache tried to swim in lava
+[22:43:54] [Server thread/INFO]: Apache has made the advancement [Fishy Business]
+[22:46:05] [Server thread/INFO]: [Samuel: Set own game mode to Spectator Mode]
+[22:46:16] [Server thread/INFO]: Apache was killed
+[22:46:16] [Server thread/INFO]: [Samuel: Killed Apache]
+[22:46:30] [Server thread/INFO]: MelAntoni was killed
+[22:46:30] [Server thread/INFO]: [Samuel: Killed MelAntoni]
+[22:46:45] [Server thread/INFO]: [Samuel: Set own game mode to Survival Mode]
+[22:51:18] [Server thread/INFO]: Samuel tried to swim in lava
+[22:55:17] [Server thread/INFO]: MelAntoni lost connection: Disconnected
+[22:55:17] [Server thread/INFO]: MelAntoni left the game
+[22:56:03] [Server thread/INFO]: Samuel has made the advancement [Local Brewery]
+[22:58:11] [Server thread/INFO]: [Samuel: Applied effect Night Vision to 2 targets]
+[22:58:17] [Server thread/INFO]: [Samuel: Applied effect Glowing to 2 targets]
+[23:00:21] [Server thread/INFO]: Samuel lost connection: Disconnected
+[23:00:21] [Server thread/INFO]: Samuel left the game
+[23:10:12] [Server thread/INFO]: Apache lost connection: Disconnected
+[23:10:12] [Server thread/INFO]: Apache left the game
+[23:11:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2919ms or 58 ticks behind
+[23:11:15] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:13:32] [Server thread/INFO]: Stopping the server
+[23:13:32] [Server thread/INFO]: Stopping server
+[23:13:32] [Server thread/INFO]: Saving players
+[23:13:32] [Server thread/INFO]: Saving worlds
+[23:13:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:overworld
+[23:13:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:the_nether
+[23:13:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Minecrift]'/minecraft:the_end
+[23:13:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (Minecrift): All chunks are saved
+[23:13:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:13:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:13:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
