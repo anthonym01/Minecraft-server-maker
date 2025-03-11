@@ -1,9 +1,23 @@
 [
   {
     "ip": "73.185.4.252",
-    "created": "2024-12-22 19:39:38 -0500",
+    "created": "2024-12-23 00:39:38 +0000",
     "source": "Samuel",
     "expires": "forever",
     "reason": "Banned by an operator."
+  },
+  {
+    "ip": "172.87.18.33",
+    "created": "2025-01-17 03:06:36 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "why would you even want to do that bro?"
+  },
+  {
+    "ip": "54.38.62.47",
+    "created": "2025-01-15 02:08:31 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Bot"
   }
 ]
